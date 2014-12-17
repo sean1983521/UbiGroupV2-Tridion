@@ -1,0 +1,46 @@
+.form-group input,
+.form-group select,
+.form-group textarea {
+  margin: 5px 0 15px 0;
+}
+
+#txtValidateCode
+{
+    margin-bottom: 5px;
+    }
+
+h1, .h1 {
+    font-size: 1.9rem;
+}
+
+.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-image
+{
+    width: 45% !important;
+    height: auto !important;
+    float: left;
+    margin-left: 5%;
+}
+
+/* line 73, ../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-info
+{
+    float: right;
+    padding: 0 !important;
+    position: relative;
+    width: 45%;
+    margin-right: 5%;
+}
+
+li.actived
+{
+    background-color: #3e61ad;
+}
+
+.menu-desktop {
+  margin-top: -52px;
+}
+
+.menu-two-rows > li.actived:hover > ul + a:after 
+{
+    display:none
+}
