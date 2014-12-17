@@ -573,7 +573,7 @@ define(["jquery", "jQuery.mockjax"], function($, tbd) {
 		logging: settings.logging
 	});
 
-    $.mockjax({
+	$.mockjax({
         url: settings.urls.faq,
         proxy: '/assets/dummy-data/faq.html',
         logging: settings.logging

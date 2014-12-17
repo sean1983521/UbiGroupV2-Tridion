@@ -121,7 +121,7 @@ define(["exports", "Globals", "jQuery.tinyPubSub"], function(exports, Globals, T
 
             } else {
                 newh = btn_height + $($(activeTabs[0]).find('section')).height();
-                console.log('newh: '+newh);
+                //console.log('newh: '+newh);
             }
             console.log('newh: '+newh);
             $(_cache.tabWrap).css('height',newh +'px');

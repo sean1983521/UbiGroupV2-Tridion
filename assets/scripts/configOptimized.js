@@ -1,19 +1,17 @@
 /// <reference path="interfaces/lib/requirejs/require.d.ts" />
 var require = {
-    baseUrl: "/assets/scripts",
+    baseUrl: "/assets/optimized-scripts",
     paths: {
-        "jquery": "lib/jquery/jquery.min",
-        "JSON": "lib/json2/json2",
-        "domReady": "lib/requirejs-domready/domReady",
-        "Hammer": "lib/hammerjs/jquery.hammer-full.min",
-        "waypoints": "lib/jquery-waypoints/waypoints.min",
-        "handlebars": "lib/handlebars/handlebars.runtime",
-        "jQuery.tinyPubSub": "lib/jquery-tiny-pubsub/dist/ba-tiny-pubsub",
-        "jQuery.mousewheel": "lib/jquery-mousewheel/jquery.mousewheel",
-        "jQuery.mockjax": "lib/jquery-mockjax/jquery.mockjax",
-        "jQuery.placeholder": "lib/jquery-placeholder/jquery.placeholder.min",
-        "jQuery.ui" : "lib/jquery-ui/jquery-ui.min",
-        "leaflet" : "lib/leaflet/leaflet.min"
+        "jquery": "../scripts/lib/jquery/jquery",
+        "JSON": "../scripts/lib/json2/json2",
+        "domReady": "../scripts/lib/requirejs-domready/domReady",
+        "Hammer": "../scripts/lib/hammerjs/dist/jquery.hammer.min",
+        "waypoints": "../scripts/lib/jquery-waypoints/waypoints",
+        "handlebars": "../scripts/lib/handlebars/handlebars.runtime",
+        "jQuery.tinyPubSub": "../scripts/lib/jquery-tiny-pubsub/dist/ba-tiny-pubsub",
+        "jQuery.mousewheel": "../scripts/lib/jquery-mousewheel/jquery.mousewheel",
+        "jQuery.mockjax": "../scripts/lib/jquery-mockjax/jquery.mockjax",
+        "jQuery.placeholder": "../scripts/lib/jquery-placeholder/jquery.placeholder"
     },
     deps: ["jquery", "Hammer", "jQuery.tinyPubSub"],
     shim: {
@@ -26,16 +24,10 @@ var require = {
         "jQuery.tinyPubSub": {
             deps: ["jquery"]
         },
-        "jQuery.ui": {
-            deps: ["jquery"]
-        },
         "jQuery.transit": {
             deps: ["jquery"]
         },
         "jQuery.mockjax": {
-            deps: ["jquery"]
-        },
-        "leaflet": {
             deps: ["jquery"]
         },
         "handlebars": {
@@ -57,6 +49,5 @@ var require = {
         }
     },
     callback: function ($, Hammer, TinyPubSub, Transit, Easing) {
-    },
-    waitSeconds: 30
+    }
 };

@@ -159,11 +159,16 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
 
         _openNav = function _openNav() {
 
+            //force redraw of nav
+            _gameNavWrap.hide();
+            _gameNavWrap.height();
+            _gameNavWrap.show();
+
             Globals.Helpers.forceLoadModules();
             _assignNavEvents();
             Globals.Helpers.cache.body.addClass('nav-open frozen');
             _cache.navBtnIcon.removeClass('icon-menu').addClass('icon-close');
-            Globals.Helpers.cache.body.on('click', _closeNav);
+            Globals.Helpers.cache.body.hammer().on('tap', _closeNav);
 
         },
 
@@ -171,7 +176,7 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
 
             Globals.Helpers.cache.body.removeClass('nav-open frozen');
             _cache.navBtnIcon.removeClass('icon-close').addClass('icon-menu');
-            Globals.Helpers.cache.body.off('click', _closeNav);
+            Globals.Helpers.cache.body.hammer().off('tap', _closeNav);
             Globals.Helpers.unfreezeBody();
             _removeNavEvents();
 

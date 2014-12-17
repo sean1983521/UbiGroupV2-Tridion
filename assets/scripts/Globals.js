@@ -739,7 +739,7 @@ define(["require", "exports", "jquery", "modules/modal/modal"], function(require
             var images = moduleElement.find('.lazy-image, .lazy-css-image'),
                 imageCheck = false;
 
-            if( images.length === 0 ) {
+            if( images.length === 0 && moduleElement[0] !== undefined) {
                 /* go ahead and kick off module initialization.
                    publishing below (line 570) for modules with images.
                 */
@@ -751,33 +751,37 @@ define(["require", "exports", "jquery", "modules/modal/modal"], function(require
                 var lazyImage = $(el),
                     newSource = _getSourceSize(lazyImage);
 
-                if (lazyImage.hasClass('lazy-css-image')) {
-                    _loadCSSImages(lazyImage, newSource);
-                } else {
-                    _loadInlineImages(lazyImage, newSource);
-                }
+                if (newSource !== false){
 
-                /* check if the first image has loaded or not (assuming it has a source defined - some mobile background images do not)
-                   or make sure we're not on a background image and the image check has not run yet.
-                   then we can initialize the modules. whew.
-                */
-                if ((i == 0 && newSource !== undefined ) || (!lazyImage.hasClass('lazy-css-image') && !imageCheck) ){
-                    //set that this check has already happened.
-                    imageCheck = true;
-                    // Create a dummy image with the appropriate src
-                    var image = $('<img/>');
+                    if (lazyImage.hasClass('lazy-css-image')) {
+                        _loadCSSImages(lazyImage, newSource);
+                    } else {
+                        _loadInlineImages(lazyImage, newSource);
+                    }
 
-                    image.load(function() {
-                        setTimeout(function(){
-                            /*
-                                kick off module initialization once an image has been loaded (to get the correct dimensions!).
-                                publishing elsewhere (line 540) as well.
-                            */
-                            $.publish(moduleElement[0].id + 'image', [moduleElement]);
-                            moduleElement = null;
-                        }, 1);
-                        image = null;
-                    }).attr('src', newSource);
+                    /* check if the first image has loaded or not (assuming it has a source defined - some mobile background images do not)
+                       or make sure we're not on a background image and the image check has not run yet.
+                       then we can initialize the modules. whew.
+                    */
+                    if ((i == 0 && newSource !== undefined ) || (!lazyImage.hasClass('lazy-css-image') && !imageCheck) ){
+                        //set that this check has already happened.
+                        imageCheck = true;
+                        // Create a dummy image with the appropriate src
+                        var image = $('<img/>');
+
+                        image.load(function() {
+                            setTimeout(function(){
+                                /*
+                                    kick off module initialization once an image has been loaded (to get the correct dimensions!).
+                                    publishing elsewhere (line 540) as well.
+                                */
+                                $.publish(moduleElement[0].id + 'image', [moduleElement]);
+                                moduleElement = null;
+                            }, 1);
+                            image = null;
+                        }).attr('src', newSource);
+                    }
+
                 }
 
                 lazyImage = null;
@@ -816,44 +820,15 @@ define(["require", "exports", "jquery", "modules/modal/modal"], function(require
         },
 
         _getSourceSize = function _getSourceSize(imgEl) {
-            /*jshint maxstatements:20 */
 
             var newSource;
 
-            if (Helpers.isWidescreen()) {
-
-                if (imgEl.attr('data-src-widescreen')) {
-                    newSource = imgEl.attr('data-src-widescreen');
-                } else if (imgEl.attr('data-src-desktop')) {
-                    newSource = imgEl.attr('data-src-desktop');
-                } else if (imgEl.attr('data-src-tablet')) {
-                    newSource = imgEl.attr('data-src-tablet');
-                } else {
-                    newSource = imgEl.attr('data-src-mobile');
-                }
-
-            } else if (Helpers.isDesktop()) {
-
-                if (imgEl.attr('data-src-desktop')) {
-                    newSource = imgEl.attr('data-src-desktop');
-                } else if (imgEl.attr('data-src-tablet')) {
-                    newSource = imgEl.attr('data-src-tablet');
-                } else {
-                    newSource = imgEl.attr('data-src-mobile');
-                }
-
-            } else if (Helpers.isTablet()) {
-
-                if (imgEl.attr('data-src-tablet')) {
-                    newSource = imgEl.attr('data-src-tablet');
-                } else {
-                    newSource = imgEl.attr('data-src-mobile');
-                }
-
+            if (imgEl.attr('data-src-desktop')) {
+                newSource = imgEl.attr('data-src-desktop');
+            } else if (imgEl.attr('data-src-tablet')) {
+                newSource = imgEl.attr('data-src-tablet');
             } else {
-
                 newSource = imgEl.attr('data-src-mobile');
-
             }
 
             return newSource;

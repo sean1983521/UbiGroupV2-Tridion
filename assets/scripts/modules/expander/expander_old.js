@@ -92,7 +92,7 @@ define(["exports", "Globals"], function(exports, Globals) {
             //let's think about it for a sec.
             _config.setHeightsTimeout = setTimeout(function(){
                 _setHeights();
-            }, 10);
+            }, 250);
 
 
             // Event assignment
@@ -331,6 +331,8 @@ define(["exports", "Globals"], function(exports, Globals) {
         },
 
         _resizeExpander = function _resizeExpander() {
+
+            console.log('resize: ', _cache.expanderWrap);
 
             _cache.more.addClass('arrow-down').removeClass('arrow-up static hide');
             _cache.dummy && _cache.dummy.addClass('arrow-down').removeClass('arrow-up static');

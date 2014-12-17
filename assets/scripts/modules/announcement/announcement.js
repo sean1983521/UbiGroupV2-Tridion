@@ -83,13 +83,10 @@ define(["exports", "Globals", "jQuery.tinyPubSub"], function(exports, Globals, T
 
         _loadAnimationFinished = function _loadAnimationFinished() {
 
-            Globals.Helpers.cache.header.removeClass('is-hidden');
-
             // Intro animations should be listening for this event in order to start
             setTimeout(function() {
-                $.publish(Globals.Settings.CONSTANTS.EVENT_PAGE_LOADED, 'loading-screen::_loadAnimationFinished');
-                 _cache.globalNav.addClass('game-nav-open');
-                 _eradicate();
+                $.publish(Globals.Settings.CONSTANTS.EVENT_PAGE_LOADED, 'announcement-screen::_loadAnimationFinished');
+                _eradicate();
             }, 700);
 
         },

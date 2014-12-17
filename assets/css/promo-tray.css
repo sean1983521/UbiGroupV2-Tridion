@@ -50,7 +50,7 @@
 }
 
 /* line 53, ../../../workspace/styles/templates/modules/promo-tray/_promo-tray-base.scss */
-.is-hidden .panel-container {
+.is-hidden {
   display: none;
 }
 

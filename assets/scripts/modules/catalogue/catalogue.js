@@ -50,7 +50,9 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
             'platform'              : { display : null, code : null },
             'genre'                 : { display : null, code : null },
             'keyword'               : null,
-            'sort'                  : null
+            'sort'                  : null,
+            'lockedScroll'          : false,
+            'lastScrollPos'         : 0
         },
 
         _sortBy = null,
@@ -134,7 +136,7 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
 
         _setupDims = function _setupDims() {
 
-            _config.panelHeight = Globals.Helpers.config.winHeight - Globals.Settings.CONSTANTS.HEADER_HEIGHT;
+            _config.panelHeight = Globals.Helpers.cache.window.height() - Globals.Settings.CONSTANTS.HEADER_HEIGHT;
             _config.resultsHeight = Globals.Helpers.isMobile()  ? _config.panelHeight - _cache.formWrap.outerHeight() + 75 : _config.panelHeight - _cache.formWrap.outerHeight();
             _config.optionsHeight = _config.resultsHeight + _config.optionsOffset;
             _config.optionsHeight = _config.optionsHeight > 50 ? _config.optionsHeight : 50;
@@ -176,6 +178,7 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
 
             _isOpen = true;
 
+            _checkHeight();
             element.css('max-height', 'none');
             element.addClass('opened');
 
@@ -196,6 +199,14 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
             if (_isFirstSearch()) {
                 _setSearchLocator();
             }
+
+        },
+
+        _checkHeight = function _checkHeight() {
+
+            _config.panelHeight = Globals.Helpers.cache.window.height() - Globals.Settings.CONSTANTS.HEADER_HEIGHT;
+            _config.resultsHeight = Globals.Helpers.isMobile()  ? _config.panelHeight - _cache.formWrap.outerHeight() + 75 : _config.panelHeight - _cache.formWrap.outerHeight();
+            _cache.searchTrayResults.css('height', _config.resultsHeight);
 
         },
 
@@ -273,7 +284,51 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
 
             _cache.searchTray.on('keyup input', '.search-tray-keyword', _handleAutocompletion);
 
+            _cache.searchTray.on('focus', '.search-tray-keyword', _handleIOSFix);
+            _cache.searchTray.on('blur', '.search-tray-keyword', _removeIOSFix);
+
             _cache.searchTray.on('click', '.run-search', _handleRunSearchClick);
+
+        },
+
+        _handleIOSFix = function _handleIOSFix() {
+
+            if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+
+                setTimeout(function() {
+
+                    $('.site-header').addClass('no-transition').css({
+                        'position': 'absolute',
+                        'top': Globals.Helpers.cache.window.scrollTop() + 'px'
+                    });
+
+                    _config.lockedScroll = true;
+                    _config.lastScrollPos = Globals.Helpers.cache.window.scrollTop();
+                    Globals.Helpers.cache.window.on('scroll', _lockedScroll);
+
+                }, 250);
+
+            }
+
+        },
+
+        _removeIOSFix = function _removeIOSFix() {
+
+            if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
+
+                $('.site-header').removeAttr('style');
+                _config.lockedScroll = false;
+                Globals.Helpers.cache.window.off('scroll', _lockedScroll);
+
+            }
+
+        },
+
+        _lockedScroll = function _lockedScroll(e) {
+
+            if (_config.lockedScroll) {
+                $('.site-header').css('top', Globals.Helpers.cache.window.scrollTop() + 'px');
+            }
 
         },
 
@@ -360,6 +415,8 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
             _cache.autoCompleteResultList.hide();
 
             _cache.buttonClearKeyword.removeClass('enabled');
+
+            $('.locator .wrap').show();
         },
 
         _showOptions = function _showOptions(e, optionsDiv) {
@@ -391,6 +448,9 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
 
             if (!open){
                 button.addClass('arrow-down').removeClass('arrow-up');
+                $('.locator .wrap').show();
+            } else {
+                $('.locator .wrap').hide();
             }
 
         },
@@ -604,11 +664,13 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
 
                 _cache.autoCompleteResultList.append(fragment);
                 _cache.autoCompleteResultList.show();
+                $('.locator .wrap').hide();
 
                 fragment = null;
 
             } else {
                 _cache.autoCompleteResultList.hide();
+                $('.locator .wrap').show();
             }
 
         },
@@ -656,6 +718,8 @@ define(["api", "handlebars", "Globals", "modules/game-to-game-nav", "jQuery.plac
             _cache.allButtons.removeClass('active');
             _cache.allButtons.addClass('arrow-down').removeClass('arrow-up');
             _cache.form.css('top', '0px');
+
+            $('.locator .wrap').show();
 
             Globals.Helpers.cache.window.off('click', _closeAllOptions);
 

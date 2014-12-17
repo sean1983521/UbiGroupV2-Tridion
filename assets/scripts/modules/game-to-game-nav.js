@@ -130,11 +130,6 @@ define(["exports", "Globals", "modules/game-cover/game-cover", "modules/secondar
         },
 
         _initialPageLoad = function _initialPageLoad(){
-            setTimeout(function() {
-                _cache.prev.removeClass('intro');
-                _cache.next.removeClass('intro');
-            }, 175);
-
             $.unsubscribe(Globals.Settings.CONSTANTS.EVENT_PAGE_LOADED);
         },
 

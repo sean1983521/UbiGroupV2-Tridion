@@ -39,7 +39,6 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
             (new Modal()).init();
 
             _addEvents();
-            _addScrollEvent();
             _setupPageLoadFunctions();
 
             AddressManager.AddressManager.init();
@@ -87,39 +86,6 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
             $.subscribe(Globals.Settings.CONSTANTS.EVENT_NEW_GAME_LOADED, _updateModules);
         },
 
-        _addScrollEvent = function _addScrollEvent() {
-
-            Globals.Helpers.cache.window.on('scroll', _removeAcceleration);
-
-        },
-
-        _removeScrollEvent = function _removeScrollEvent() {
-
-            Globals.Helpers.cache.window.off('scroll', _removeAcceleration);
-
-        },
-
-        _removeAcceleration = function _removeAcceleration() {
-
-            clearTimeout(_timer);
-
-            _timer = setTimeout(function() {
-
-                var scrollPos = Globals.Helpers.cache.window.scrollTop();
-
-                if (_cache.modules && _cache.modules.length && (scrollPos - _oldScrollPos) > 50) {
-                    _cache.modules.removeClass('accelerate');
-                    _cache.sliders.removeClass('animate easing');
-                }
-
-                _oldScrollPos = scrollPos;
-
-                scrollPos = null;
-
-            }, 750);
-
-        },
-
         _setupPageLoadFunctions = function _setupPageLoadFunctions() {
 
             Globals.Helpers.addToPageLoadFunctions(CTAAnchors.CTAAnchors.init);
@@ -128,7 +94,6 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
 
         _updateModules = function _updateModules() {
 
-            _removeScrollEvent();
             _garbage();
             _setupCache();
 
@@ -138,20 +103,11 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
                 _setupModules();
             }
 
-            _addScrollEvent();
-
         },
 
         _setupModules = function _setupModules() {
 
             _cache.modules.each(function(i, el) {
-
-                // $(el).waypoint(function(){
-                //     _initializeModule($(el));
-                // }, {
-                //     offset      : _config.waypointOffset,
-                //     triggerOnce : true
-                // });
 
                 el = $(el);
 
@@ -230,8 +186,6 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
             moduleElement.waypoint('destroy');
 
             Globals.ImageLazyLoader.initModuleLazyImages(moduleElement);
-
-            //console.log(filteredLink);
 
             moduleElement.removeClass('is-not-initialized');
             filteredLink.removeClass('is-not-initialized');

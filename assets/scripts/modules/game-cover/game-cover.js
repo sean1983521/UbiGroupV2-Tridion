@@ -134,9 +134,6 @@ define(["exports", "Globals", "waypoints", "jQuery.tinyPubSub"], function(export
 
         _initialPageLoad = function _initialPageLoad() {
 
-            _cache.circles.removeClass('show');
-            _cache.currentHero.find('.circle-wrap').addClass('show');
-
             $.unsubscribe(Globals.Settings.CONSTANTS.EVENT_PAGE_LOADED);
 
             if (!_isPageLoaded) {

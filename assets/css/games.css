@@ -21,8 +21,11 @@
 /* line 18, ../../../workspace/styles/games/_games-base.scss */
 .no-touch .hero .game-logo {
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-/* line 23, ../../../workspace/styles/games/_games-base.scss */
+/* line 26, ../../../workspace/styles/games/_games-base.scss */
 .hero .btn-large-arrow {
   position: absolute;
   -moz-transition: opacity 250ms ease;
@@ -31,29 +34,29 @@
   transition: opacity 250ms ease;
   -webkit-backface-visibility: hidden;
 }
-/* line 29, ../../../workspace/styles/games/_games-base.scss */
+/* line 32, ../../../workspace/styles/games/_games-base.scss */
 .hero .btn-large-arrow.inactive {
   cursor: default;
   opacity: 0;
 }
-/* line 36, ../../../workspace/styles/games/_games-base.scss */
+/* line 39, ../../../workspace/styles/games/_games-base.scss */
 .hero #heroNext, .hero #heroPrev {
   top: 145px;
 }
-/* line 40, ../../../workspace/styles/games/_games-base.scss */
+/* line 43, ../../../workspace/styles/games/_games-base.scss */
 .hero #heroNext {
   right: 0;
 }
-/* line 44, ../../../workspace/styles/games/_games-base.scss */
+/* line 47, ../../../workspace/styles/games/_games-base.scss */
 .hero .game-nav {
   display: none;
 }
 
-/* line 50, ../../../workspace/styles/games/_games-base.scss */
+/* line 53, ../../../workspace/styles/games/_games-base.scss */
 .hero-more {
   display: none;
 }
-/* line 53, ../../../workspace/styles/games/_games-base.scss */
+/* line 56, ../../../workspace/styles/games/_games-base.scss */
 .no-touch .hero-more {
   -webkit-transform-style: preserve-3d;
 }
@@ -88,37 +91,8 @@
     left: auto;
     right: 22px;
   }
-  /* line 18, ../../../workspace/styles/games/_games-960.scss */
-  .hero #heroNext, .hero #heroPrev {
-    top: 240px;
-    display: inline;
-  }
-  /* line 23, ../../../workspace/styles/games/_games-960.scss */
-  .hero #heroNext {
-    -moz-transition: margin-right 250ms ease;
-    -ms-transition: margin-right 250ms ease;
-    -webkit-transition: margin-right 250ms ease;
-    transition: margin-right 250ms ease;
-    margin-right: 0px;
-  }
-  /* line 26, ../../../workspace/styles/games/_games-960.scss */
-  .hero #heroNext.intro {
-    margin-right: -50px;
-  }
-  /* line 32, ../../../workspace/styles/games/_games-960.scss */
-  .hero #heroPrev {
-    -moz-transition: margin-left 250ms ease;
-    -ms-transition: margin-left 250ms ease;
-    -webkit-transition: margin-left 250ms ease;
-    transition: margin-left 250ms ease;
-    margin-left: 0px;
-  }
-  /* line 35, ../../../workspace/styles/games/_games-960.scss */
-  .hero #heroPrev.intro {
-    margin-left: -50px;
-  }
 
-  /* line 43, ../../../workspace/styles/games/_games-960.scss */
+  /* line 20, ../../../workspace/styles/games/_games-960.scss */
   .hero-more {
     bottom: 0;
     cursor: pointer;
@@ -134,7 +108,7 @@
     transition: opacity 250ms ease;
     width: 100%;
   }
-  /* line 56, ../../../workspace/styles/games/_games-960.scss */
+  /* line 33, ../../../workspace/styles/games/_games-960.scss */
   .hero-more.fade {
     opacity: 0;
     cursor: default;
