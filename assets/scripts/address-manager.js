@@ -160,11 +160,6 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
 
             var url = '/' + _config.urlLang + '/' + _config.urlCategory + '/' + _config.urlTitle + '/',
                 deepLinkedUrl = _config.isDeepLinked ? _config.currentGameURL + _config.urlHash : _config.currentGameURL;
-
-            if (window.history.replaceState){
-                window.history.replaceState({}, _config.currentGameURL, deepLinkedUrl);
-            }
-
             // Update the config object
             _setupURLConfig();
 
@@ -174,16 +169,6 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
         },
 
         _setLanguage = function _setLanguage() {
-
-            if (Globals.Helpers.getCookie('locale') !== '') {
-
-                if (Globals.Helpers.getCookie('locale') !== _config.urlLang && !_modalPopped) {
-                    $.publish(Globals.Settings.CONSTANTS.EVENT_LOCALE_MESSAGE);
-                }
-
-            } else {
-                Globals.Helpers.setCookie('locale', _config.urlLang, 300);
-            }
 
         },
 
