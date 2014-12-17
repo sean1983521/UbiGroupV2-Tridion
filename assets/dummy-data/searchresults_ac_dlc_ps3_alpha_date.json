@@ -1,0 +1,27 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Assassin's Creed 3 : The Tyranny of King",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Tablet": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Mobile": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Widescreen": "/assets/images/assassins_creed_3_dlc.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/The_Tyranny_of_King_Washington",
+        "Type": "DLC",
+        "DateText": "January 24 2013",
+        "Date" : "2013-01-24"
+      }
+    ]
+  },
+  "TotalRecords": 1,
+  "ErrorMsg": null
+}
+

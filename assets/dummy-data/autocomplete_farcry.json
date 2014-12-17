@@ -1,0 +1,17 @@
+{
+  "AutoComplete": [
+    {
+      "Name": "Far Cry (All Results)",
+      "Keyword": "Far Cry"
+    },
+    {
+      "Name": "Far Cry 3",
+      "URL": "/en-US/game/far_cry_3"
+    },
+    {
+      "Name": "Far Cry 3: Blood Dragon",
+      "URL": "/en-US/dlc/blood_dragon"
+    }
+  ],
+  "ErrorMsg": null
+}

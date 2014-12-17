@@ -1,0 +1,91 @@
+/* line 6, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .game-bg-color {
+  background-color: #fe7b07;
+}
+/* line 9, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .game-type-color {
+  color: #fe7b07;
+}
+/* line 12, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxMjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0ZGN0IwNyIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjRkZGRDU5IiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnMTI1KSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, #ff7b07 40%, #fffd59 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, #ff7b07 40%, #fffd59 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #ff7b07 40%, #fffd59 100%);
+  /* W3C */
+}
+/* line 19, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .circle-wrap .circle-btn {
+  color: #fe7b07;
+}
+/* line 23, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .game-logo {
+  height: 50px;
+  margin-left: -85px;
+  width: 170px;
+}
+/* line 28, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .hero-more {
+  background-color: #fe7b07;
+}
+/* line 33, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .game-tray-wrap [class*="sprite-icon-"] {
+  background-color: #fe7b07;
+}
+/* line 40, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .game-specs .box-art .circle-btn {
+  background-color: #fe7b07;
+  color: white;
+}
+/* line 47, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .external-link-list .link-item {
+  background-color: #fe7b07;
+}
+/* line 53, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .game-specs .box-art .circle-btn {
+  display: block;
+}
+/* line 58, ../../../workspace/styles/games/_rayman-base.scss */
+.rayman .tri::after, .rayman .double-tri::before {
+  border-color: #fe7b07 #fe7b07 transparent transparent;
+}
+
+@media only screen and (min-width: 641px) {
+  /* line 2, ../../../workspace/styles/games/_rayman-600.scss */
+  .rayman .game-logo {
+    height: auto;
+    margin-left: -125px;
+    width: 250px;
+  }
+
+  /* line 14, ../../../workspace/styles/games/_rayman-600.scss */
+  .modal-page-rayman .modal-content .game-modal h1 {
+    background: #fe7b07;
+    color: #fff;
+  }
+  /* line 18, ../../../workspace/styles/games/_rayman-600.scss */
+  .modal-page-rayman .modal-content .game-modal h2, .modal-page-rayman .modal-content .game-modal strong {
+    color: #fe7b07;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 5, ../../../workspace/styles/games/_rayman-960.scss */
+  .rayman .circle-wrap {
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxMjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0ZGN0IwNyIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjRkZGRDU5IiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnMTI1KSIgLz4KPC9zdmc+);
+    background: -webkit-linear-gradient(114deg, rgba(255, 123, 7, 0.92) 40%, rgba(255, 253, 89, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(-45deg, rgba(255, 123, 7, 0.92) 40%, rgba(255, 253, 89, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* IE10+ */
+    background: linear-gradient(-45deg, rgba(255, 123, 7, 0.92) 40%, rgba(255, 253, 89, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* W3C */
+  }
+  /* line 13, ../../../workspace/styles/games/_rayman-960.scss */
+  .rayman .game-logo {
+    bottom: 30px;
+    margin-left: 0;
+  }
+}

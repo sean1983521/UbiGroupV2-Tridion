@@ -1,0 +1,43 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Just Dance 4",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/justdance_4.jpg",
+            "Tablet": "/assets/images/justdance_4.jpg",
+            "Mobile": "/assets/images/justdance_4.jpg",
+            "Widescreen": "/assets/images/justdance_4.jpg"
+        },
+        "PlatformText": "Xbox 360, Playstation 3, Wii, WiiU",
+        "PlatformCategory": [
+          "console"
+            ],
+        "PageURL": "/en-US/game/just_dance_4",
+        "Type": "Game",
+        "DateText": "October 2nd, 2012",
+        "Date" : "2012-10-02"
+      },
+      {
+        "DisplayName": "Rocksmith",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/rocksmith.jpg",
+            "Tablet": "/assets/images/rocksmith.jpg",
+            "Mobile": "/assets/images/rocksmith.jpg",
+            "Widescreen": "/assets/images/rocksmith.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/rocksmith",
+        "Type": "Game",
+        "DateText": "October 18, 2011",
+        "Date" : "2011-10-18"
+      }
+    ]
+  },
+  "TotalRecords": 2,
+  "ErrorMsg": null
+}

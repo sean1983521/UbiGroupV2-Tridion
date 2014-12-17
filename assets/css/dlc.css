@@ -1,0 +1,264 @@
+/* Mixins *******************************************/
+/*easeInOutQuint*/
+/* line 7, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc [class*="sprite-icon-"] {
+  background-color: #9c28ff;
+}
+/* line 11, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1NTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzlDMjhGRiIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjQ0U1OEZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTUyKSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, #9c28ff 40%, #ce58ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, #9c28ff 40%, #ce58ff 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #9c28ff 40%, #ce58ff 100%);
+  /* W3C */
+}
+/* line 18, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .circle-wrap .circle-btn {
+  color: #9c28ff;
+}
+/* line 23, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-logo {
+  bottom: 230px;
+  margin-left: -110px;
+  width: 220px;
+}
+/* line 29, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .hero-more {
+  background-color: #9c28ff;
+}
+/* line 34, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .promo-wrap {
+  background: #9c28ff;
+}
+/* line 38, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .promo-slider .circle-btn {
+  background: #9c28ff;
+  color: #fff;
+}
+/* line 44, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .info-wrap .body-text {
+  padding: 0 20px 20px;
+}
+/* line 50, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-info-content .toggle-wrap {
+  display: none;
+}
+/* line 53, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-info-content .copy {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 20px;
+}
+/* line 57, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-info-content .copy p, .dlc .game-info-content .copy ul {
+  display: block;
+}
+/* line 63, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-bg-color {
+  background-color: #9c28ff;
+}
+/* line 67, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-type-color {
+  color: #9c28ff;
+}
+/* line 74, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .media-wrap header,
+.dlc .media-wrap .more {
+  background-color: #9c28ff;
+}
+/* line 78, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .media-wrap .mask-slide.thumbnail .cta-btn p {
+  color: #9c28ff;
+}
+/* line 87, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-specs .circle-btn {
+  background: #9c28ff;
+  color: #fff;
+}
+/* line 92, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-specs .requirements {
+  color: #9c28ff;
+}
+/* line 100, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .tab-wrap h2 {
+  color: #9c28ff;
+}
+/* line 104, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .tab-wrap .active button {
+  background: #9c28ff;
+}
+/* line 113, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .news-wrap header {
+  background-color: #9c28ff;
+}
+/* line 117, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .news-wrap a {
+  color: #9c28ff;
+}
+/* line 126, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .patches-wrap .cta-btn {
+  background: #9c28ff;
+}
+/* line 135, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .downloads-list img {
+  width: 100%;
+}
+/* line 143, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap hr {
+  display: none;
+}
+/* line 147, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap header {
+  background: #9c28ff;
+}
+/* line 150, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap header h1.border-2.white {
+  background-image: none;
+  text-align: left;
+  padding: 0;
+}
+/* line 156, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .slider-wrap {
+  margin: 30px auto 0;
+}
+/* line 160, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .downloads-list .channel-item {
+  padding: 0 15px;
+}
+/* line 163, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .downloads-list .channel-item a {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+/* line 169, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .downloads-list .channel-item .tri {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+/* line 176, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .mask-slide {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+/* line 180, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .mask-slide .cta-btn p {
+  color: #9c28ff;
+}
+/* line 186, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .dlc-download-wrap .download-item {
+  text-align: center;
+}
+/* line 191, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-bg-color {
+  background-color: #9c28ff;
+}
+/* line 195, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .game-type-color {
+  color: #9c28ff;
+}
+/* line 199, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .tri::after, .dlc .double-tri::before {
+  border-color: #9c28ff #9c28ff transparent transparent;
+}
+/* line 202, ../../../workspace/styles/dlc/_dlc-base.scss */
+.dlc .double-tri::before {
+  border-color: transparent transparent #9c28ff #9c28ff;
+}
+
+/* line 213, ../../../workspace/styles/dlc/_dlc-base.scss */
+.modal-page-dlc .modal-content .game-modal .download a {
+  background-color: #9c28ff;
+}
+
+@media only screen and (min-width: 641px) {
+  /* line 7, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .game-logo {
+    bottom: 444px;
+    margin-left: -133px;
+    width: 266px;
+  }
+  /* line 14, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .info-wrap .body-text {
+    padding: 20px 20px 38px;
+  }
+  /* line 20, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .news-wrap {
+    background: #9c28ff;
+  }
+  /* line 24, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .news-wrap header {
+    background: none;
+  }
+  /* line 28, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .news-wrap .cta-btn {
+    background: #9c28ff;
+    color: #fff;
+  }
+  /* line 35, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .dlc-download-wrap {
+    padding: 0 40px;
+  }
+  /* line 38, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .dlc-download-wrap hr {
+    display: block;
+    margin: 0 10px;
+    width: auto;
+  }
+  /* line 44, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .dlc-download-wrap header {
+    background: none;
+    height: auto;
+    line-height: 1;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  /* line 52, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .dlc-download-wrap header h1.border-2.white {
+    background-image: url(/assets/images/header-border-white.png), url(/assets/images/header-border-white.png);
+    margin-top: 50px;
+    padding: 9px 0 8px;
+    text-align: center;
+  }
+  /* line 61, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .dlc-download-wrap .downloads-list {
+    padding: 0;
+  }
+  /* line 65, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .dlc .dlc-download-wrap .downloads-list .channel-item {
+    padding: 0 10px;
+  }
+
+  /* line 75, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .modal-page-dlc .modal-content .game-modal h1 {
+    background: #9c28ff;
+    color: #fff;
+  }
+  /* line 79, ../../../workspace/styles/dlc/_dlc-600.scss */
+  .modal-page-dlc .modal-content .game-modal h2, .modal-page-dlc .modal-content .game-modal strong {
+    color: #9c28ff;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 5, ../../../workspace/styles/dlc/_dlc-960.scss */
+  .dlc .circle-wrap {
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1NTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzlDMjhGRiIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjQ0U1OEZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTUyKSIgLz4KPC9zdmc+);
+    background: -webkit-linear-gradient(114deg, rgba(156, 40, 255, 0.92) 40%, rgba(206, 88, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(-45deg, rgba(156, 40, 255, 0.92) 40%, rgba(206, 88, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* IE10+ */
+    background: linear-gradient(-45deg, rgba(156, 40, 255, 0.92) 40%, rgba(206, 88, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* W3C */
+  }
+  /* line 13, ../../../workspace/styles/dlc/_dlc-960.scss */
+  .dlc .game-logo {
+    bottom: 20px;
+    margin-left: 0;
+  }
+}

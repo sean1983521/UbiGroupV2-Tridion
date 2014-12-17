@@ -1,0 +1,29 @@
+{
+  "AutoComplete": [
+    {
+      "Name": "Rayman (All Results)",
+      "Keyword": "Rayman"
+    },
+    {
+      "Name": "Rayman Franchise",
+      "URL": "/en-US/franchise/rayman"
+    },
+    {
+      "Name": "Rayman 3: Hoodlum Havoc",
+      "URL": "/en-US/game/rayman-3-hoodlum-havoc"
+    },
+    {
+      "Name": "Rayman Jungle Run",
+      "URL": "/en-US/dlc/rayman-jungle-run"
+    },
+    {
+      "Name": "Rayman Legends",
+      "URL": "/en-US/game/rayman-legends"
+    },
+    {
+      "Name": "Rayman Origins",
+      "URL": "/en-US/game/rayman-origins"
+    }
+  ],
+  "ErrorMsg": null
+}

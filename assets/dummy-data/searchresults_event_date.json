@@ -1,0 +1,59 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Pax Prime 2013",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/pax_prime_event.jpg",
+          "Tablet": "/assets/images/pax_prime_event.jpg",
+          "Mobile": "/assets/images/pax_prime_event.jpg",
+          "Widescreen": "/assets/images/pax_prime_event.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "events"
+            ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Event",
+        "DateText": "August 30-September 2, 2013",
+        "Date" : "2013-08-30"
+      },
+      {
+        "DisplayName": "Comicon 2013",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/comicon_event.jpg",
+          "Tablet": "/assets/images/comicon_event.jpg",
+          "Mobile": "/assets/images/comicon_event.jpg",
+          "Widescreen": "/assets/images/comicon_event.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "events"
+            ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Event",
+        "DateText": "July 18-21, 2013",
+        "Date" : "2013-07-18"
+      },
+      {
+        "DisplayName": "E3 2013",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/e3_event.jpg",
+          "Tablet": "/assets/images/e3_event.jpg",
+          "Mobile": "/assets/images/e3_event.jpg",
+          "Widescreen": "/assets/images/e3_event.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "events"
+            ],
+        "PageURL": "/en-US/event/e3_2013",
+        "Type": "Event",
+        "DateText": "June 11-13, 2013",
+        "Date" : "2013-06-11"
+      }
+    ]
+  },
+  "TotalRecords": 3,
+  "ErrorMsg": null
+}

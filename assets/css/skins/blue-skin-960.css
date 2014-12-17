@@ -1,0 +1,19 @@
+/* line 5, ../../../../workspace/styles/skins/blue-skin-960.scss */
+.blue-skin .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNFNjFBRCIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjQTRDOEZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTI0KSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, rgba(62, 97, 173, 0.92) 40%, rgba(164, 200, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, rgba(62, 97, 173, 0.92) 40%, rgba(164, 200, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+  /* IE10+ */
+  background: linear-gradient(-45deg, rgba(62, 97, 173, 0.92) 40%, rgba(164, 200, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+  /* W3C */
+}
+/* line 13, ../../../../workspace/styles/skins/blue-skin-960.scss */
+.blue-skin .tab-wrap section {
+  top: 0;
+}
+/* line 17, ../../../../workspace/styles/skins/blue-skin-960.scss */
+.blue-skin .one-slide .promo-slider h2 {
+  top: -40px;
+}

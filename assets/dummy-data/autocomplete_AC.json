@@ -1,0 +1,29 @@
+{
+  "AutoComplete": [
+    {
+      "Name": "Assassin's Creed (All Results)",
+      "Keyword": "Assassin's Creed"
+    },
+    {
+      "Name": "Assassin's Creed Franchise",
+      "URL": "/en-US/franchise/assassins-creed"
+    },
+    {
+      "Name": "Assassin's Creed",
+      "URL": "/en-US/game/assassins-creed"
+    },
+    {
+      "Name": "Assassin's Creed 2",
+      "URL": "/en-US/game/assassins-creed-2"
+    },
+    {
+      "Name": "Assassin's Creed 3",
+      "URL": "/en-US/game/assassins-creed-3"
+    },
+    {
+      "Name": "Assassin's Creed 3 : The Tyranny of King Washington",
+      "URL": "/en-US/dlc/The-Tyranny-of-King-Washington"
+    }
+  ],
+  "ErrorMsg": null
+}

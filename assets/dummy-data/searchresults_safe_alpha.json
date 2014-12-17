@@ -1,0 +1,80 @@
+{
+  "SearchResult": {
+    "Items": [
+
+      {
+        "DisplayName": "Just Dance 4",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/justdance_4.jpg",
+            "Tablet": "/assets/images/justdance_4.jpg",
+            "Mobile": "/assets/images/justdance_4.jpg",
+            "Widescreen": "/assets/images/justdance_4.jpg"
+        },
+        "PlatformText": "Xbox 360, Playstation 3, Wii, WiiU",
+        "PlatformCategory": [
+          "console"
+            ],
+        "PageURL": "/en-US/game/just_dance_4",
+        "Type": "Game",
+        "DateText": "October 2nd, 2012",
+        "Date" : "2012-10-02"
+      },
+      {
+        "DisplayName": "Rayman Legends",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman_legends.jpg",
+          "Tablet": "/assets/images/rayman_legends.jpg",
+          "Mobile": "/assets/images/rayman_legends.jpg",
+          "Widescreen": "/assets/images/rayman_legends.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3, Wii U, PS Vita",
+        "PlatformCategory":[
+          "console",
+          "pc",
+          "handheld"
+          ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Game",
+        "DateText": "September 3 2013",
+        "Date" : "2013-09-03"
+      },
+      {
+        "DisplayName": "Rayman Jungle Run",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman_jungle_run.jpg",
+          "Tablet": "/assets/images/rayman_jungle_run.jpg",
+          "Mobile": "/assets/images/rayman_jungle_run.jpg",
+          "Widescreen": "/assets/images/rayman_jungle_run.jpg"
+        },
+        "PlatformText": "iOS, Android",
+        "PlatformCategory": [
+          "mobile"
+          ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Game",
+        "DateText": "September 20, 2012",
+        "Date" : "2012-09-20"
+      },
+      {
+        "DisplayName": "Rocksmith",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/rocksmith.jpg",
+            "Tablet": "/assets/images/rocksmith.jpg",
+            "Mobile": "/assets/images/rocksmith.jpg",
+            "Widescreen": "/assets/images/rocksmith.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/rocksmith",
+        "Type": "Game",
+        "DateText": "October 18, 2011",
+        "Date" : "2011-10-18"
+      }
+    ]
+  },
+  "TotalRecords": 4,
+  "ErrorMsg": null
+}

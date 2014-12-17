@@ -1,0 +1,26 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Anno 2070",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/anno_2070.jpg",
+          "Tablet": "/assets/images/anno_2070.jpg",
+          "Mobile": "/assets/images/anno_2070.jpg",
+          "Widescreen": "/assets/images/anno_2070.jpg"
+        },
+        "PlatformText": "PC",
+        "PlatformCategory": [
+          "pc"
+          ],
+        "PageURL": "/en-US/home-anno.html",
+        "Type": "Game",
+        "DateText": "November 17 2011",
+        "Date" : "2011-11-17"
+      }
+    ]
+  },
+  "TotalRecords": 1,
+  "ErrorMsg": null
+}
+

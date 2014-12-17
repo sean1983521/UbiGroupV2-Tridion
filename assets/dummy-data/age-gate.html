@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+<div id="age-gate">
+    
+    <div class="mfp-modal-content game-age-gate age-gate-container">
+
+        <button title="Close" type="button" class="close" style="">×</button>
+        
+        <div class="circle-background"></div>
+        
+        <div class="centered-content">
+            
+            <div class="gain-access">
+                <h2 class="h1 border-2 white">Access</h2>
+                <h1>Enter your
+                <br>date of birth</h1>
+                
+                <form id="ageGateForm" novalidate>
+					<input type="tel" id="age-month" name="month" placeholder="month" maxlength="2" pattern="\d*"/>
+					<input type="tel" id="age-day" name="day" placeholder="day" maxlength="2" pattern="\d*"/>
+					<input type="tel" id="age-year" name="year" placeholder="year" maxlength="4" pattern="\d*"/>
+                </form>
+                
+                <div class="go-button">
+                    <button class="h3 circle-btn-large mask-slide">
+                        <div class="mask-inner">
+                            <ul>
+                                <li><span>Go</span></li>
+                                <li><span>Go</span></li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="denied-access">
+                <h2 class="border-2 white">Denied</h2>
+                <h1>You may not access this content</h1>
+                <div class="go-button">
+                    <button class="h3 circle-btn-large mask-slide">
+                        <div class="mask-inner">
+                            <ul>
+                                <li><span>Go Back</span></li>
+                                <li><span>Go Back</span></li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

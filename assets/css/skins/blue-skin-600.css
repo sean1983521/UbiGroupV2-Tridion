@@ -1,0 +1,60 @@
+/* line 7, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .tab-wrap h2 {
+  color: #3e61ad;
+}
+/* line 14, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .news-wrap {
+  background: #3e61ad;
+}
+/* line 18, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .news-wrap header {
+  background: none;
+}
+/* line 22, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .news-wrap .cta-btn {
+  background: #3e61ad;
+  color: #fff;
+}
+/* line 32, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .module-b-wrap .section-header {
+  display: none;
+}
+/* line 36, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .module-b-wrap .button-wrap {
+  display: block;
+}
+/* line 41, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .module-b-wrap.is-expanded-view-active .section-header {
+  display: none;
+}
+/* line 44, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-image {
+  max-width: none;
+}
+
+/* line 55, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.modal-page-blue-skin .modal-content .game-modal h1 {
+  background: #3e61ad;
+  color: #fff;
+}
+/* line 59, ../../../../workspace/styles/skins/blue-skin-600.scss */
+.modal-page-blue-skin .modal-content .game-modal h2, .modal-page-blue-skin .modal-content .game-modal strong {
+  color: #3e61ad;
+}
+
+/* line 66, ../../../../workspace/styles/skins/blue-skin-600.scss */
+#grads-interns-page.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-image {
+  width: 45% !important;
+  height: auto !important;
+  float: left;
+  margin-left: 5%;
+}
+
+/* line 73, ../../../../workspace/styles/skins/blue-skin-600.scss */
+#grads-interns-page.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-info {
+  float: right;
+  padding: 0 !important;
+  position: relative;
+  width: 45%;
+  margin-right: 5%;
+}

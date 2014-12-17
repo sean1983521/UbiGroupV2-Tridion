@@ -1,0 +1,48 @@
+/* Mixins *******************************************/
+/*easeInOutQuint*/
+/* line 6, ../../../workspace/styles/type-test.scss */
+body {
+  background: #5a5a5a;
+}
+
+/* line 10, ../../../workspace/styles/type-test.scss */
+.type-test {
+  padding: 30px;
+}
+
+/* line 14, ../../../workspace/styles/type-test.scss */
+.type-item {
+  margin-bottom: 30px;
+}
+/* line 20, ../../../workspace/styles/type-test.scss */
+.type-item .border-2,
+.type-item .border-top,
+.type-item .border-bottom {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 27, ../../../workspace/styles/type-test.scss */
+.data-icon {
+  background: #eee;
+  display: inline-block;
+  font-size: 10px;
+  margin: .75em 1.5em .75em 0;
+  padding: .75em;
+  text-align: center;
+  width: 7.5em;
+}
+
+/* line 37, ../../../workspace/styles/type-test.scss */
+.data-icon div {
+  font-size: 25px;
+  font-size: 2.5rem;
+}
+
+/* line 41, ../../../workspace/styles/type-test.scss */
+.data-icon input {
+  border: 0;
+  padding: .125em;
+  text-align: center;
+  width: 100%;
+}

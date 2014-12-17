@@ -1,0 +1,154 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Splinter Cell",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell.jpg",
+          "Tablet": "/assets/images/splinter_cell.jpg",
+          "Mobile": "/assets/images/splinter_cell.jpg",
+          "Widescreen": "/assets/images/splinter_cell.jpg"
+        },
+        "PlatformText": "Xbox, PC, PS2, GameCube, GBA, Mobile, PS3",
+        "PlatformCategory":[
+          "console",
+          "pc",
+          "mobile"
+          ],
+        "PageURL": "/en-US/game/splinter_cell",
+        "Type": "Game",
+        "DateText": "November 17 2002",
+        "Date" : "2002-11-17"
+      },
+      {
+        "DisplayName": "Tom Clancy's: Splinter Cell Blacklist",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/splinter_cell_blacklist.jpg",
+            "Tablet": "/assets/images/splinter_cell_blacklist.jpg",
+            "Mobile": "/assets/images/splinter_cell_blacklist.jpg",
+            "Widescreen": "/assets/images/splinter_cell_blacklist.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, WiiU, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/splinter_cell_blacklist",
+        "Type": "Game",
+        "DateText": "August 20, 2013",
+        "Date" : "2013-08-20"
+      },
+      {
+        "DisplayName": "Splinter Cell: Chaos Theory",
+       "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell_chaos.jpg",
+          "Tablet": "/assets/images/splinter_cell_chaos.jpg",
+          "Mobile": "/assets/images/splinter_cell_chaos.jpg",
+          "Widescreen": "/assets/images/splinter_cell_chaos.jpg"
+        },
+        "PlatformText": "Xbox, Xbox 360, PC, PS2, PS3, GameCube, DS, 3DS",
+        "PlatformCategory": [
+          "console",
+          "pc",
+          "handheld"
+          ],
+        "PageURL": "/en-US/game/splinter_cell_chaos",
+        "Type": "Game",
+        "DateText": "March 23 2005",
+        "Date" : "2005-03-23"
+      },
+      {
+        "DisplayName": "Splinter Cell: Conviction",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell_conviction.jpg",
+          "Tablet": "/assets/images/splinter_cell_conviction.jpg",
+          "Mobile": "/assets/images/splinter_cell_conviction.jpg",
+          "Widescreen": "/assets/images/splinter_cell_conviction.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, iOS, Android, Windows Phone",
+        "PlatformCategory": [
+          "console",
+          "pc",
+          "mobile"
+          ],
+        "PageURL": "/en-US/game/splinter_cell_conviction",
+        "Type": "Game",
+        "DateText": "April 13 2010",
+        "Date" : "2010-04-13"
+      },
+      {
+        "DisplayName": "Splinter Cell: Double Agent",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell_double_agent.jpg",
+          "Tablet": "/assets/images/splinter_cell_double_agent.jpg",
+          "Mobile": "/assets/images/splinter_cell_double_agent.jpg",
+          "Widescreen": "/assets/images/splinter_cell_double_agent.jpg"
+        },
+        "PlatformText": "Xbox, Xbox 360, PC, PS2, PS3, Wii",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/splinter_cell_double_agent",
+        "Type": "Game",
+        "DateText": "October 17 2006",
+        "Date" : "2006-10-17"
+      },
+      {
+        "DisplayName": "Splinter Cell: Essentials",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell_essentials.jpg",
+          "Tablet": "/assets/images/splinter_cell_essentials.jpg",
+          "Mobile": "/assets/images/splinter_cell_essentials.jpg",
+          "Widescreen": "/assets/images/splinter_cell_essentials.jpg"
+        },
+        "PlatformText": "PSP",
+        "PlatformCategory": [
+          "handheld"
+          ],
+        "PageURL": "/en-US/game/splinter_cell_essentials",
+        "Type": "Game",
+        "DateText": "March 21 2006",
+        "Date" : "2006-03-21"
+      },
+      {
+        "DisplayName": "Splinter Cell Franchise",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell_franchise.jpg",
+          "Tablet": "/assets/images/splinter_cell_franchise.jpg",
+          "Mobile": "/assets/images/splinter_cell_franchise.jpg",
+          "Widescreen": "/assets/images/splinter_cell_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/splinter_cell",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Splinter Cell: Pandora Tomorrow",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/splinter_cell_pandora.jpg",
+          "Tablet": "/assets/images/splinter_cell_pandora.jpg",
+          "Mobile": "/assets/images/splinter_cell_pandora.jpg",
+          "Widescreen": "/assets/images/splinter_cell_pandora.jpg"
+        },
+        "PlatformText": "Xbox, PC, GBA, PS2, GameCube, PS3",
+        "PlatformCategory": [
+          "console",
+          "pc",
+          "handheld"
+          ],
+        "PageURL": "/en-US/game/splinter_cell_pandora",
+        "Type": "Game",
+        "DateText": "March 23 2004",
+        "Date" : "2004-03-23"
+      }
+    ]
+  },
+  "TotalRecords": 8,
+  "ErrorMsg": null
+}

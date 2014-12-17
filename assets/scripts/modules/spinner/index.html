@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Spinner</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="/assets/lib/requirejs/require.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/assets/css/globals.css" title="" type="" />
+    <link rel="stylesheet" href="/assets/css/modal.css" title="" type="" />
+    <style type="text/css" media="all">
+
+        body, html{
+          color: hsl(0, 0%, 90%);
+          background: hsl(0, 0%, 0%);
+        }
+        h1{
+          padding-top: 80px;
+          font-size: 2rem;
+          text-transform: none;
+          font-weight: bold;
+          text-align: center;
+        }
+        p{
+            padding-top: 10%;
+            text-align: center;
+            color: hsl(0, 0%, 90%);
+        }
+        .listing{
+            text-align: center;
+        }
+        .listing a{
+            color: black;
+        }
+        li{
+            margin-bottom: 1em;
+        }
+        .spinner{
+          top: 50%;
+          left: 50%;
+          position: absolute;
+        }
+    </style>
+  </head>
+  <body>
+
+    <h1>Spinner</h1>
+    
+    <div class="container">
+      
+    </div>
+
+    <script type="text/javascript">
+
+      var container = document.querySelector('.container');
+
+      require.config({ baseUrl: "/assets/scripts" });
+      require(['modules/spinner/spinner'], function(Spinner){
+        var spinner = new Spinner();
+        var spinnerElement = spinner.init();
+        container.appendChild(spinnerElement);
+        spinner.dotColor(['lightgreen', 'lightblue', 'lightpink'])
+        spinner.start();
+      });
+
+    </script>
+  
+  </body>
+
+</html>

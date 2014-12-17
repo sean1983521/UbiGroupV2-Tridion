@@ -1,0 +1,58 @@
+/* Mixins *******************************************/
+/*easeInOutQuint*/
+/* line 6, ../../../workspace/styles/element-sheet.scss */
+body {
+  background: #5a5a5a;
+  padding: 20px;
+}
+
+/* line 11, ../../../workspace/styles/element-sheet.scss */
+.el-wrap {
+  margin-bottom: 30px;
+}
+
+/* line 15, ../../../workspace/styles/element-sheet.scss */
+.social-wrap {
+  height: 220px;
+  width: 390px;
+}
+
+/* line 22, ../../../workspace/styles/element-sheet.scss */
+.promo-tray,
+.search-tray {
+  max-width: 393px;
+}
+
+/* line 26, ../../../workspace/styles/element-sheet.scss */
+.search-tray {
+  background: #000;
+  padding: 20px 20px 0 0;
+}
+/* line 31, ../../../workspace/styles/element-sheet.scss */
+.search-tray > li {
+  display: none;
+}
+/* line 36, ../../../workspace/styles/element-sheet.scss */
+.search-tray > li:first-child,
+.search-tray > li:nth-child(2) {
+  display: block;
+}
+
+@media only screen and (min-width: 641px) {
+  /* line 43, ../../../workspace/styles/element-sheet.scss */
+  .search-tray {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 50, ../../../workspace/styles/element-sheet.scss */
+  .search-tray > li:nth-child(3) {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 58, ../../../workspace/styles/element-sheet.scss */
+  .search-tray > li:nth-child(4) {
+    display: block;
+  }
+}

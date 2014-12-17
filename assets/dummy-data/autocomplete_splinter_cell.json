@@ -1,0 +1,41 @@
+{
+  "AutoComplete": [
+    {
+      "Name": "Splinter Cell (All Results)",
+      "Keyword": "Splinter Cell"
+    },
+    {
+      "Name": "Splinter Cell Franchise",
+      "URL": "/en-US/franchise/splinter-cell"
+    },
+    {
+      "Name": "Splinter Cell",
+      "URL": "/en-US/game/splinter-cell"
+    },
+    {
+      "Name": "Splinter Cell: Pandora Tomorrow",
+      "URL": "/en-US/game/splinter-cell-pandora"
+    },
+    {
+      "Name": "Splinter Cell: Chaos Theory",
+      "URL": "/en-US/game/splinter-cell-chaos"
+    },
+    {
+      "Name": "Splinter Cell: Essentials",
+      "URL": "/en-US/game/splinter-cell"
+    },
+    {
+      "Name": "Splinter Cell: Double Agent",
+      "URL": "/en-US/game/splinter-cell-double-agent"
+    },
+    {
+      "Name": "Splinter Cell: Conviction",
+      "URL": "/en-US/game/splinter-cell-conviction"
+    },
+    {
+      "Name": "Splinter Cell: Blacklist",
+      "URL": "/en-US/game/splinter-cell-blacklist"
+    }
+  ],
+  "ErrorMsg": null
+}

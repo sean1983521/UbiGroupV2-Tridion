@@ -1,0 +1,116 @@
+[
+    {"studio":"Shanghai","coord":[51.501072570642286,-0.09187631309828248],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"other"},
+    {"studio":"San Francisco","coord":[51.50204392053511,-0.13231025670245478],"type":"business","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Seoul","coord":[51.50181051467577,-0.09076580406826906],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"other"},
+    {"studio":"Sydney","coord":[51.49360883786433,-0.08676131457976188],"type":"business","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Tokyo","coord":[51.50196836121465,-0.08876413282101536],"type":"business","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Osaka","coord":[51.501533892690794,-0.08944691176687725],"type":"production","link":"http://www.ubisoft.com","popup":true,"arrow":"arrow-left", "offset":[44,10]},
+    {"studio":"Chengdu","coord":[51.50138277223333,-0.09565261374163025],"type":"production","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Hong Kong","coord":[51.499956548234685,-0.09327047386379572],"type":"business","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Singapore","coord":[51.49762952421163,-0.09485349060696535],"type":"production","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Pune","coord":[51.49965327835393,-0.0998209417025464],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"other"},
+    {"studio":"Abu Dhabi","coord":[51.5002304622668,-0.10322387360812701],"type":"production","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Sao Paulo","coord":[51.49452029468426,-0.11977665127119508],"type":"business","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Casablanca","coord":[51.501336332165906,-0.11310324074429445],"type":"production","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Mexico City","coord":[51.49967999397927,-0.12832745911282473],"type":"business","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Cary","coord":[51.50160945273161,-0.125103145607095],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"other"},
+    {"studio":"Toronto","coord":[51.50263894580582,-0.12574040595658476],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"other"},
+    {"studio":"Quebec","coord":[51.50343708863807,-0.12365424231115307],"type":"production","link":"http://www.ubisoft.com","popup":true},
+    {"studio":"Antwerp","coord":[51.5041412837317,-0.11113986374539309],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-top", "offset":[-1,34]},
+    {"studio":"De Meern","coord":[51.50454536247167,-0.11084489525160279],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Helsinki","coord":[51.506014540884685,-0.10790519417128053],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Malmö","coord":[51.505052902188076,-0.10976128280958619],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-left", "offset":[44,10]},
+    {"studio":"Copenhagen","coord":[51.50498612096942,-0.11015288532576051],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Chertsey","coord":[51.504211451680504,-0.11209480465254275],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-right", "offset":[-44,10]},
+    {"studio":"London","coord":[51.50423482551551,-0.11209480465254275],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Kiev","coord":[51.50418135321754,-0.10685905815762453],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Vienna","coord":[51.503824112097384,-0.10902635753950563],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-left", "offset":[44,10]},
+    {"studio":"Lausanne","coord":[51.50327310288674,-0.1107750833193677],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Mainz","coord":[51.50383408316977,-0.1104103028933423],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-left", "offset":[44,10]},
+    {"studio":"Annecy","coord":[51.50319300865529,-0.11098973453840699],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-right", "offset":[-42,10]},
+    {"studio":"Montpellier","coord":[51.50277560739698,-0.11124722660383668],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-right", "offset":[-54,10]},
+    {"studio":"Barcelona","coord":[51.50256189647285,-0.11162273586592164],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-left", "offset":[48,10]},
+    {"studio":"Madrid","coord":[51.50238825560905,-0.11251859367689575],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-top", "offset":[-1,34]},
+    {"studio":"Bucharest","coord":[51.50329652357572,-0.10761015117964234],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Sofia","coord":[51.50265200951788,-0.10821089150113039],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Buccinasco","coord":[51.503079429518706,-0.11047467590969971],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-top", "offset":[-1,34]},
+    {"studio":"Milan","coord":[51.503132856736926,-0.11043176056546145],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe","arrow":"arrow-left", "offset":[42,10]},
+    {"studio":"Warsaw","coord":[51.50447598482887,-0.10862551906914986],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Moscow","coord":[51.5050093937483,-0.10577270429433794],"type":"business","link":"http://www.ubisoft.com","popup":false,"group":"europe"},
+    {"studio":"Düsseldorf","coord":[51.5041412837317,-0.11096820236843996],"type":"production-business","link":"http://www.ubisoft.com","popup":false,"group":"europe",
+        "expanded":[
+            {
+                "name":"Blue Byte",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Germany business",
+                "url":"http://www.ubisoft.com"
+            }
+        ]
+    },
+    {"studio":"New Castle","coord":[51.504839201943874,-0.1122932881196448],"type":"production","link":"http://www.ubisoft.com","popup":false,"group":"europe",
+        "expanded":[
+            {
+                "name":"Reflections",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Consumer Relationship Center",
+                "url":"http://www.ubisoft.com"
+            }
+        ]
+    },
+    {"studio":"Paris","coord":[51.503633733861456,-0.1115690171877759],"type":"production-business","link":"http://www.ubisoft.com","popup":false,"group":"europe",
+        "expanded":[
+            {
+                "name":"Worldwide HQ",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Worldwide Studios",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"EMEA HQ",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Mobile HQ",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Ubisoft Motion Pictures",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"France business",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Paris studio",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Nadeo",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Owlient",
+                "url":"http://www.ubisoft.com"
+            }
+        ]
+    },
+    {"studio":"Montreal","coord":[51.50296013290851,-0.12470117002817192],"type":"production-business","link":"http://www.ubisoft.com","popup":false,"group":"other",
+        "expanded":[
+            {
+                "name":"Montreal Studio",
+                "url":"http://www.ubisoft.com"
+            },
+            {
+                "name":"Canada Business",
+                "url":"http://www.ubisoft.com"
+            }
+        ]
+    }
+]

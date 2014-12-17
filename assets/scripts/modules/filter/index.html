@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale = 1,user-scalable=no,maximum-scale=1.0">
+    <title>Index</title>
+
+    <script src="../../../../components/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../../components/requirejs/require.js" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="../../../../deploy/assets/css/globals.css" title="" type="" />
+    <link rel="stylesheet" href="../../../../deploy/assets/css/modal.css" title="" type="" />
+
+    <style type="text/css" media="all">
+        p{
+            padding-top: 10%;
+            text-align: center;
+            color: hsl(0, 0%, 40%);
+        }
+        .listing{
+            text-align: center;
+        }
+        .listing a{
+            color: black;
+        }
+        li{
+            margin-bottom: 1em;
+        }
+    </style>
+  </head>
+  <body style='background-color: white;'>
+
+    <header class="box">
+      <h1>Media</h1>
+
+      <div class="filter box">
+        <div class="label-wrap">
+          <span class="h1 btn-arrow white arrow-down show-tablet-only">Filter By</span>
+          <span class="h1 hide-on-tablet">Show: <span class="btn-arrow grey-light arrow-down filter-type">All</span> </span>
+        </div>
+        <ul>
+          <li>
+            <button class="h1" data-value="all">All</button>
+          </li>
+          <li>
+            <button class="h1" data-value="video">Video</button>
+          </li>
+          <li>
+            <button class="h1" data-value="screenshot">Screenshot</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+
+      require.config({
+        baseUrl: "/workspace/scripts",
+      });
+
+      require(['modules/filter/filter'], function(Filter){
+        var filter = new Filter();
+        filter.init({
+            root: $('.filter'),
+        }).on('change', function(){
+          //console.log( arguments );
+        });
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
+

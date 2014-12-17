@@ -1,0 +1,43 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Far Cry 3",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/farcry3.jpg",
+            "Tablet": "/assets/images/farcry3.jpg",
+            "Mobile": "/assets/images/farcry3.jpg",
+            "Widescreen": "/assets/images/farcry3.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/far_cry_3",
+        "Type": "Game",
+        "DateText": "November 29, 2012",
+        "Date" : "2012-11-29"
+      },
+      {
+        "DisplayName": "Far Cry 3: Blood Dragon",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/blood_dragon.jpg",
+            "Tablet": "/assets/images/blood_dragon.jpg",
+            "Mobile": "/assets/images/blood_dragon.jpg",
+            "Widescreen": "/assets/images/blood_dragon.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "dlc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "DLC",
+        "DateText": "April 30, 2013",
+        "Date" : "2013-04-30"
+      }
+    ]
+  },
+  "TotalRecords": 2,
+  "ErrorMsg": null
+}

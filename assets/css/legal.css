@@ -1,0 +1,84 @@
+/* Mixins *******************************************/
+/*easeInOutQuint*/
+/* line 5, ../../../workspace/styles/legal.scss */
+.item-detail-nav, .item-promo, .item-search {
+  display: none;
+}
+
+/* line 10, ../../../workspace/styles/legal.scss */
+.legal .global-nav {
+  right: 60px;
+  -moz-transform: translateX(60px);
+  -ms-transform: translateX(60px);
+  -webkit-transform: translateX(60px);
+  transform: translateX(60px);
+}
+/* line 15, ../../../workspace/styles/legal.scss */
+.legal .icon-search {
+  border-left: 1px solid #3c3c3c;
+}
+
+/* line 21, ../../../workspace/styles/legal.scss */
+.legal-wrap {
+  background-color: #fff;
+  padding: 65px 20px 20px;
+}
+
+/* line 26, ../../../workspace/styles/legal.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 31, ../../../workspace/styles/legal.scss */
+ol {
+  list-style: decimal-leading-zero;
+  margin: 0 0 45px 30px;
+}
+/* line 35, ../../../workspace/styles/legal.scss */
+ol li {
+  line-height: 24px;
+  line-height: 2.4rem;
+  width: 100%;
+}
+/* line 40, ../../../workspace/styles/legal.scss */
+ol a {
+  color: #454545;
+  text-decoration: underline;
+}
+
+/* line 46, ../../../workspace/styles/legal.scss */
+.back-top {
+  display: block;
+  margin: -15px 0 20px;
+}
+
+/* line 51, ../../../workspace/styles/legal.scss */
+.terms-of-service h2, .back-to-top {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* line 56, ../../../workspace/styles/legal.scss */
+.terms-of-service strong, .privacy-policy strong {
+  font-weight: bold;
+}
+
+/* line 61, ../../../workspace/styles/legal.scss */
+.privacy-policy ol {
+  counter-reset: list-count;
+  list-style: none;
+  margin: 0 40px 45px 0;
+}
+/* line 66, ../../../workspace/styles/legal.scss */
+.privacy-policy ol > li {
+  margin-left: 40px;
+}
+/* line 69, ../../../workspace/styles/legal.scss */
+.privacy-policy ol > li:before {
+  content: "Q " counter(list-count,decimal-leading-zero) ".";
+  counter-increment: list-count;
+  float: left;
+  margin-left: -40px;
+  width: 40px;
+}

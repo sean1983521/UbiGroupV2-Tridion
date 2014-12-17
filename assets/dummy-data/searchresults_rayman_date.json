@@ -1,0 +1,99 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Rayman Franchise",
+       "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman_franchise.jpg",
+          "Tablet": "/assets/images/rayman_franchise.jpg",
+          "Mobile": "/assets/images/rayman_franchise.jpg",
+          "Widescreen": "/assets/images/rayman_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+          ],
+        "PageURL": "/en-US/franchise/rayman",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Rayman Legends",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman_legends.jpg",
+          "Tablet": "/assets/images/rayman_legends.jpg",
+          "Mobile": "/assets/images/rayman_legends.jpg",
+          "Widescreen": "/assets/images/rayman_legends.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3, Wii U, PS Vita",
+        "PlatformCategory":[
+          "console",
+          "pc",
+          "handheld"
+          ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Game",
+        "DateText": "September 3 2013",
+        "Date" : "2013-09-03"
+      },      
+      {
+        "DisplayName": "Rayman Jungle Run",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman_jungle_run.jpg",
+          "Tablet": "/assets/images/rayman_jungle_run.jpg",
+          "Mobile": "/assets/images/rayman_jungle_run.jpg",
+          "Widescreen": "/assets/images/rayman_jungle_run.jpg"
+        },
+        "PlatformText": "iOS, Android",
+        "PlatformCategory": [
+          "mobile"
+          ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Game",
+        "DateText": "September 20, 2012",
+        "Date" : "2012-09-20"
+      },
+      {
+        "DisplayName": "Rayman Origins",
+       "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman_origins.jpg",
+          "Tablet": "/assets/images/rayman_origins.jpg",
+          "Mobile": "/assets/images/rayman_origins.jpg",
+          "Widescreen": "/assets/images/rayman_origins.jpg"
+        },
+        "PlatformText": "PC, Playstation 3, Nintendo 3DS, PS Vita",
+        "PlatformCategory": [
+          "console",
+          "pc",
+          "handheld"
+          ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Game",
+        "DateText": "November 15 2011",
+        "Date" : "2011-11-15"
+      },
+      {
+        "DisplayName": "Rayman 3: Hoodlum Havoc",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/rayman3.jpg",
+          "Tablet": "/assets/images/rayman3.jpg",
+          "Mobile": "/assets/images/rayman3.jpg",
+          "Widescreen": "/assets/images/rayman3.jpg"
+        },
+        "PlatformText": "Xbox, PC, Playstation 2, GameCube, GBA, Xbox Live, PSN",
+        "PlatformCategory": [
+          "console",
+          "pc",
+          "handheld"
+            ],
+        "PageURL": "/en-US/game/anno_2070",
+        "Type": "Game",
+        "DateText": "February 21, 2003",
+        "Date" : "2003-02-21"
+      }
+    ]
+  },
+  "TotalRecords": 5,
+  "ErrorMsg": null
+}

@@ -1,0 +1,68 @@
+/* line 7, ../../../workspace/styles/events/_e3-base.scss */
+.e3 .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc4MTUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNGNEFENCIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzBDMTQ3OCIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzgxNSkiIC8+Cjwvc3ZnPg==);
+  background: -webkit-linear-gradient(-45deg, #0c1478 0%, #3f4ad4 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, #0c1478 0%, #3f4ad4 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #0c1478 0%, #3f4ad4 100%);
+  /* W3C */
+}
+/* line 14, ../../../workspace/styles/events/_e3-base.scss */
+.e3 .circle-wrap .circle-btn {
+  color: #0c1478;
+}
+/* line 19, ../../../workspace/styles/events/_e3-base.scss */
+.e3 .hero-more {
+  background-color: #0c1478;
+}
+/* line 27, ../../../workspace/styles/events/_e3-base.scss */
+.e3 .news-wrap header,
+.e3 .news-wrap .cta-btn {
+  background-color: #3e61ad;
+}
+/* line 31, ../../../workspace/styles/events/_e3-base.scss */
+.e3 .news-wrap h2 a {
+  color: #3e61ad;
+}
+
+@media only screen and (min-width: 641px) {
+  /* Far Cry 3 */
+  /* line 8, ../../../workspace/styles/events/_e3-600.scss */
+  .e3 .news-wrap {
+    background: #3e61ad;
+  }
+  /* line 12, ../../../workspace/styles/events/_e3-600.scss */
+  .e3 .news-wrap header {
+    background: none;
+  }
+  /* line 16, ../../../workspace/styles/events/_e3-600.scss */
+  .e3 .news-wrap .cta-btn {
+    background: #3e61ad;
+    color: #fff;
+  }
+  /* line 25, ../../../workspace/styles/events/_e3-600.scss */
+  .e3 .goods-wrap header {
+    background: none;
+  }
+
+  /* line 35, ../../../workspace/styles/events/_e3-600.scss */
+  .modal-page-e3 .modal-content .game-modal h1 {
+    background: #3e61ad;
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 5, ../../../workspace/styles/events/_e3-960.scss */
+  .e3 .circle-wrap {
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc4MTUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNGNEFENCIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzBDMTQ3OCIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzgxNSkiIC8+Cjwvc3ZnPg==);
+    background: -webkit-linear-gradient(-45deg, rgba(12, 20, 120, 0.92) 0%, rgba(63, 74, 212, 0.92) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(-45deg, rgba(12, 20, 120, 0.92) 0%, rgba(63, 74, 212, 0.92) 100%);
+    /* IE10+ */
+    background: linear-gradient(-45deg, rgba(12, 20, 120, 0.92) 0%, rgba(63, 74, 212, 0.92) 100%);
+    /* W3C */
+  }
+}

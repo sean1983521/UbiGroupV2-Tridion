@@ -1,0 +1,377 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Far Cry 3",
+        "SearchThumbnailImage": {
+          "Alt": "Far Cry 3",
+          "Desktop": "/assets/images/farcry3.jpg",
+          "Tablet": "/assets/images/farcry3.jpg",
+          "Mobile": "/assets/images/farcry3.jpg",
+          "Widescreen": "/assets/images/farcry3.jpg"
+        },
+        "PlatformText": "<dt>Platform</dt><dd>Xbox 360, PC, Playstation 3</dd>",
+        "PlatformCategory": [
+          "console",
+          "pc",
+          "franchise",
+          "dlc"
+          ],
+        "PageURL": "/en-US/game/far_cry_3",
+        "Type": "Game",
+        "DateText": "<dt>Release</dt><dd>November 29, 2012</dd>",
+        "Date" : "2012-11-29"
+      },
+      {
+        "DisplayName": "E3 2013",
+        "SearchThumbnailImage": {
+          "Alt": "E3 2013",
+          "Desktop": "/assets/images/e3_event.jpg",
+          "Tablet": "/assets/images/e3_event.jpg",
+          "Mobile": "/assets/images/e3_event.jpg",
+          "Widescreen": "/assets/images/e3_event.jpg"
+        },
+        "PlatformText": "<dd>News and Events</dd>",
+        "PlatformCategory": [
+          "events"
+        ],
+        "PageURL": "/en-US/event/e3_2013",
+        "Type": "Event",
+        "DateText": "<dd>June 11-13, 2013</dd>",
+        "Date" : "2013-06-11"
+      },
+      {
+        "DisplayName": "Rayman Franchise",
+        "SearchThumbnailImage": {
+          "Alt": "Rayman Franchise",
+          "Desktop": "/assets/images/rayman_franchise.jpg",
+          "Tablet": "/assets/images/rayman_franchise.jpg",
+          "Mobile": "/assets/images/rayman_franchise.jpg",
+          "Widescreen": "/assets/images/rayman_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+        ],
+        "PageURL": "/en-US/franchise/rayman",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "" ,
+        "SearchThumbnailImage": {
+          "Alt": "Rayman Legends",
+          "Desktop": "/assets/images/ads/rayman_legends.jpg",
+          "Tablet": "/assets/images/ads/rayman_legends.jpg",
+          "Mobile": "/assets/images/ads/rayman_legends.jpg",
+          "Widescreen": "/assets/images/ads/rayman_legends.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": "",
+        "PageURL": "http://www.uplay.com",
+        "Type": "SearchPromo",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Far Cry 3: Blood Dragon",
+          "SearchThumbnailImage": {
+            "Alt": "Far Cry 3: Blood Dragon",
+            "Desktop": "/assets/images/blood_dragon.jpg",
+            "Tablet": "/assets/images/blood_dragon.jpg",
+            "Mobile": "/assets/images/blood_dragon.jpg",
+            "Widescreen": "/assets/images/blood_dragon.jpg"
+        },
+        "PlatformText": "<dt>Platform</dt><dd>Xbox 360, PC, Playstation 3</dd>",
+        "PlatformCategory": [
+          "dlc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "<dt>Release</dt><dd>April 30, 2013</dd>",
+        "Date" : "2013-04-30"
+      },
+      {
+        "DisplayName": "Just Dance 4",
+        "SearchThumbnailImage": {
+          "Alt": "Just Dance 4",
+          "Desktop": "/assets/images/justdance_4.jpg",
+          "Tablet": "/assets/images/justdance_4.jpg",
+          "Mobile": "/assets/images/justdance_4.jpg",
+          "Widescreen": "/assets/images/justdance_4.jpg"
+        },
+        "PlatformText": "<dt>Platform</dt><dd>Xbox 360, Playstation 3, Wii, WiiU</dd>",
+        "PlatformCategory": [
+          "console"
+            ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "<dt>Release</dt><dd>October 2nd, 2012</dd>",
+        "Date" : "2012-10-02"
+      },
+      {
+        "DisplayName": "Tom Clancy's: The Division",
+        "SearchThumbnailImage": {
+          "Alt": "Tom Clancy's: The Division",
+          "Desktop": "/assets/images/the_division.jpg",
+          "Tablet": "/assets/images/the_division.jpg",
+          "Mobile": "/assets/images/the_division.jpg",
+          "Widescreen": "/assets/images/the_division.jpg"
+        },
+        "PlatformText": "<dt>Platform</dt><dd>Xbox One, Playstation 4</dd>",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "<dt>Release</dt><dd>Q4 2014</dd>",
+        "Date" : "2014-10-00"
+      },
+      {
+        "DisplayName": "Watch Dogs",
+        "SearchThumbnailImage": {
+          "Alt": "Watch Dogs",
+          "Desktop": "/assets/images/watch_dogs.jpg",
+          "Tablet": "/assets/images/watch_dogs.jpg",
+          "Mobile": "/assets/images/watch_dogs.jpg",
+          "Widescreen": "/assets/images/watch_dogs.jpg"
+        },
+        "PlatformText": "<dt>Platform</dt><dd>Xbox 360, Xbox One, PC, Playstation 4, Playstation 3</dd>",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "<dt>Release</dt><dd>November 19, 2013</dd>",
+        "Date" : "2013-11-19"
+      },
+      {
+        "DisplayName": "Tom Clancy's Rainbow Six: Patriots",
+        "SearchThumbnailImage": {
+          "Alt": "Tom Clancy's Rainbow Six: Patriots",
+          "Desktop": "/assets/images/rainbow_six_patriots.jpg",
+          "Tablet": "/assets/images/rainbow_six_patriots.jpg",
+          "Mobile": "/assets/images/rainbow_six_patriots.jpg",
+          "Widescreen": "/assets/images/rainbow_six_patriots.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, PC, Playstation 4",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "Coming 2014",
+        "Date" : "2014-00-00"
+      },
+      {
+        "DisplayName": "South Park: The Stick of Truth",
+        "SearchThumbnailImage": {
+          "Alt": "South Park: The Stick of Truth",
+          "Desktop": "/assets/images/south_park_sot.jpg",
+          "Tablet": "/assets/images/south_park_sot.jpg",
+          "Mobile": "/assets/images/south_park_sot.jpg",
+          "Widescreen": "/assets/images/south_park_sot.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "Q4 2013",
+        "Date" : "2013-11-01"
+      },
+      {
+        "DisplayName": "Assassin's Creed IV: Black Flag",
+        "SearchThumbnailImage": {
+          "Alt": "Assassin's Creed IV: Black Flag",
+          "Desktop": "/assets/images/assassins_creed_4.jpg",
+          "Tablet": "/assets/images/assassins_creed_4.jpg",
+          "Mobile": "/assets/images/assassins_creed_4.jpg",
+          "Widescreen": "/assets/images/assassins_creed_4.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, WiiU, Playstation 4",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "October 29 2013",
+        "Date" : "2013-10-29"
+      },
+      {
+        "DisplayName": "Rocksmith 2014",
+        "SearchThumbnailImage": {
+          "Alt": "Rocksmith 2014",
+          "Desktop": "/assets/images/rocksmith.jpg",
+          "Tablet": "/assets/images/rocksmith.jpg",
+          "Mobile": "/assets/images/rocksmith.jpg",
+          "Widescreen": "/assets/images/rocksmith.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, PC, PlayStation 4 Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "Coming 2014",
+        "Date" : "2014-00-00"
+      },
+      {
+        "DisplayName": "Tom Clancy's Ghost Recon Franchise",
+        "SearchThumbnailImage": {
+          "Alt": "Tom Clancy's Ghost Recon Franchise",
+          "Desktop": "/assets/images/ghost_recon_franchise.jpg",
+          "Tablet": "/assets/images/ghost_recon_franchise.jpg",
+          "Mobile": "/assets/images/ghost_recon_franchise.jpg",
+          "Widescreen": "/assets/images/ghost_recon_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+        ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Pax Prime 2013",
+        "SearchThumbnailImage": {
+          "Alt": "Pax Prime 2013",
+          "Desktop": "/assets/images/pax_prime_event.jpg",
+          "Tablet": "/assets/images/pax_prime_event.jpg",
+          "Mobile": "/assets/images/pax_prime_event.jpg",
+          "Widescreen": "/assets/images/pax_prime_event.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "events"
+        ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Event",
+        "DateText": "August 30-September 2, 2013",
+        "Date" : "2013-08-30"
+      },
+      {
+        "DisplayName": "Tom Clancy's: Splinter Cell Blacklist",
+        "SearchThumbnailImage": {
+          "Alt": "Tom Clancy's: Splinter Cell Blacklist",
+          "Desktop": "/assets/images/splinter_cell_blacklist.jpg",
+          "Tablet": "/assets/images/splinter_cell_blacklist.jpg",
+          "Mobile": "/assets/images/splinter_cell_blacklist.jpg",
+          "Widescreen": "/assets/images/splinter_cell_blacklist.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, WiiU, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Game",
+        "DateText": "August 20, 2013",
+        "Date" : "2013-08-20"
+      },
+      {
+        "DisplayName": "Assassin's Creed 3 : The Tyranny of King",
+        "SearchThumbnailImage": {
+          "Alt": "Assassin's Creed 3 : The Tyranny of King",
+          "Desktop": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Tablet": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Mobile": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Widescreen": "/assets/images/assassins_creed_3_dlc.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "DLC",
+        "DateText": "January 24 2013",
+        "Date" : "2013-01-24"
+      },
+      {
+        "DisplayName": "Comicon 2013",
+        "SearchThumbnailImage": {
+          "Alt": "Comicon 2013",
+          "Desktop": "/assets/images/comicon_event.jpg",
+          "Tablet": "/assets/images/comicon_event.jpg",
+          "Mobile": "/assets/images/comicon_event.jpg",
+          "Widescreen": "/assets/images/comicon_event.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+            "events"
+        ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Event",
+        "DateText": "July 18-21, 2013",
+        "Date" : "2013-07-18"
+      },
+      {
+        "DisplayName": "Assassin's Creed Franchise",
+        "SearchThumbnailImage": {
+          "Alt": "Assasin's Creed Franchise",
+          "Desktop": "/assets/images/assassins_creed_franchise.jpg",
+          "Tablet": "/assets/images/assassins_creed_franchise.jpg",
+          "Mobile": "/assets/images/assassins_creed_franchise.jpg",
+          "Widescreen": "/assets/images/assassins_creed_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+            "franchise"
+        ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Prince of Persia Franchise",
+        "SearchThumbnailImage": {
+          "Alt": "Prince of Persia Franchise",
+          "Desktop": "/assets/images/prince_of_persia_franchise.jpg",
+          "Tablet": "/assets/images/prince_of_persia_franchise.jpg",
+          "Mobile": "/assets/images/prince_of_persia_franchise.jpg",
+          "Widescreen": "/assets/images/prince_of_persia_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+            "franchise"
+        ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Tom Clancy's Splinter Cell Franchise",
+        "SearchThumbnailImage": {
+          "Alt": "Tom Clancy's Splinter Cell Franchise",
+          "Desktop": "/assets/images/splinter_cell_franchise.jpg",
+          "Tablet": "/assets/images/splinter_cell_franchise.jpg",
+          "Mobile": "/assets/images/splinter_cell_franchise.jpg",
+          "Widescreen": "/assets/images/splinter_cell_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+            "franchise"
+        ],
+        "PageURL": "/en-US/dlc/blood_dragon",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      }
+    ]
+  },
+  "TotalRecords": 20,
+  "ErrorMsg": null
+}

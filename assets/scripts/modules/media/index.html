@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale = 1,user-scalable=no,maximum-scale=1.0">
+    <title>Media</title>
+    
+    <script src="/assets/scripts/config.js"></script>
+    <script src="../../../../components/modernizr/modernizr.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../../components/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../../components/requirejs/require.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../../../../deploy/assets/css/globals.css" title="" type="" />
+    <link rel="stylesheet" href="../../../../deploy/assets/css/modal.css" title="" type="" />
+
+    <style type="text/css" media="all">
+        .media-wrap{ display: block; }
+    </style>
+  </head>
+  <body class='current-game'>
+
+    <div class="module"></div>
+
+    <!-- End Media Module -->
+    <script type="text/javascript">
+
+      require(['modules/media/media', 'Globals'], function(obj, Globals){
+
+        $('.module').load('/deploy/en-US/home.html #farCry3Media', function(){
+          setTimeout(function(){
+            obj.Module.init($('.media-wrap'));
+            Globals.ImageLazyLoader.init();
+          }, 200);
+        });
+
+      });
+
+    </script>
+</body>

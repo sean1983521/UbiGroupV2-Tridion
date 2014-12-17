@@ -1,0 +1,151 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Assassin's Creed 3",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/assassins_creed_3.jpg",
+            "Tablet": "/assets/images/assassins_creed_3.jpg",
+            "Mobile": "/assets/images/assassins_creed_3.jpg",
+            "Widescreen": "/assets/images/assassins_creed_3.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/assassins_creed_3",
+        "Type": "Game",
+        "DateText": "October 30 2012",
+        "Date" : "2012-10-30"
+      },
+      {
+        "DisplayName": "Assassin's Creed 3 : The Tyranny of King",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/assassins_creed_3_dlc.jpg",
+            "Tablet": "/assets/images/assassins_creed_3_dlc.jpg",
+            "Mobile": "/assets/images/assassins_creed_3_dlc.jpg",
+            "Widescreen": "/assets/images/assassins_creed_3_dlc.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/The_Tyranny_of_King_Washington",
+        "Type": "DLC",
+        "DateText": "January 24 2013",
+        "Date" : "2013-01-24"
+      },
+      {
+        "DisplayName": "Assassin's Creed IV: Black Flag",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/assassins_creed_4.jpg",
+            "Tablet": "/assets/images/assassins_creed_4.jpg",
+            "Mobile": "/assets/images/assassins_creed_4.jpg",
+            "Widescreen": "/assets/images/assassins_creed_4.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, WiiU, Playstation 4, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/assassins_creed_4",
+        "Type": "Game",
+        "DateText": "October 29 2013",
+        "Date" : "2013-10-29"
+      },
+      {
+        "DisplayName": "Far Cry 3",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/farcry3.jpg",
+            "Tablet": "/assets/images/farcry3.jpg",
+            "Mobile": "/assets/images/farcry3.jpg",
+            "Widescreen": "/assets/images/farcry3.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/far_cry_3",
+        "Type": "Game",
+        "DateText": "November 29, 2012",
+        "Date" : "2012-11-29"
+      },
+      {
+        "DisplayName": "Just Dance 4",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/justdance_4.jpg",
+            "Tablet": "/assets/images/justdance_4.jpg",
+            "Mobile": "/assets/images/justdance_4.jpg",
+            "Widescreen": "/assets/images/justdance_4.jpg"
+        },
+        "PlatformText": "Xbox 360, Playstation 3, Wii, WiiU",
+        "PlatformCategory": [
+          "console"
+            ],
+        "PageURL": "/en-US/game/just_dance_4",
+        "Type": "Game",
+        "DateText": "October 2nd, 2012",
+        "Date" : "2012-10-02"
+      },
+      {
+        "DisplayName": "Rocksmith",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/rocksmith.jpg",
+            "Tablet": "/assets/images/rocksmith.jpg",
+            "Mobile": "/assets/images/rocksmith.jpg",
+            "Widescreen": "/assets/images/rocksmith.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/rocksmith",
+        "Type": "Game",
+        "DateText": "October 18, 2011",
+        "Date" : "2011-10-18"
+      },
+      {
+        "DisplayName": "Tom Clancy's Rainbow Six: Patriots",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/rainbow_six_patriots.jpg",
+            "Tablet": "/assets/images/rainbow_six_patriots.jpg",
+            "Mobile": "/assets/images/rainbow_six_patriots.jpg",
+            "Widescreen": "/assets/images/rainbow_six_patriots.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, PC, Playstation 4, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/rainbow_six_patriots",
+        "Type": "Game",
+        "DateText": "Coming 2014",
+        "Date" : "2014-00-00"
+      },
+      {
+        "DisplayName": "Watch Dogs",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/watch_dogs.jpg",
+            "Tablet": "/assets/images/watch_dogs.jpg",
+            "Mobile": "/assets/images/watch_dogs.jpg",
+            "Widescreen": "/assets/images/watch_dogs.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, PC, Playstation 4, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/watch_dogs",
+        "Type": "Game",
+        "DateText": "November 19, 2013",
+        "Date" : "2013-11-19"
+      }
+    ]
+  },
+  "TotalRecords": 8,
+  "ErrorMsg": null
+}

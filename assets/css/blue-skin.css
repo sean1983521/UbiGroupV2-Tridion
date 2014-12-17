@@ -1,0 +1,249 @@
+/* line 7, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin [class*="sprite-icon-"] {
+  background-color: #3e61ad;
+}
+/* line 12, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-info-content .toggle-wrap {
+  display: none;
+}
+/* line 15, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-info-content .copy p, .blue-skin .game-info-content .copy ul {
+  display: block;
+}
+/* line 20, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNFNjFBRCIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjQTRDOEZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTI0KSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, #3e61ad 40%, #a4c8ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, #3e61ad 40%, #a4c8ff 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #3e61ad 40%, #a4c8ff 100%);
+  /* W3C */
+}
+/* line 27, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .circle-wrap .circle-btn {
+  color: #3e61ad;
+}
+/* line 32, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .text-link {
+  color: #3e61ad;
+  opacity: 0.8;
+}
+/* line 35, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .text-link:after {
+  border-left-color: #3e61ad;
+}
+/* line 38, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .text-link:hover {
+  opacity: 1;
+}
+/* line 43, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .hero-more {
+  background-color: #3e61ad;
+}
+/* line 48, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .promo-wrap {
+  background: #3e61ad;
+}
+/* line 52, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .promo-slider .circle-btn {
+  background: #3e61ad;
+  color: #fff;
+}
+/* line 57, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-bg-color {
+  background-color: #3e61ad;
+}
+/* line 61, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-type-color {
+  color: #3e61ad;
+}
+/* line 68, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .media-wrap header,
+.blue-skin .media-wrap .more {
+  background-color: #3e61ad;
+}
+/* line 72, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .media-wrap .mask-slide.thumbnail .cta-btn p {
+  color: #3e61ad;
+}
+/* line 81, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-specs .circle-btn {
+  background: #3e61ad;
+  color: #fff;
+}
+/* line 86, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-specs .requirements {
+  color: #3e61ad;
+}
+/* line 94, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .tab-wrap .active button {
+  background: #3e61ad;
+}
+/* line 103, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .news-wrap header {
+  background-color: #3e61ad;
+}
+/* line 107, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .news-wrap a {
+  color: #3e61ad;
+}
+/* line 116, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .patches-wrap .cta-btn {
+  background: #3e61ad;
+}
+/* line 125, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .border-2 {
+  display: block;
+}
+/* line 129, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .module-item-sleeve {
+  background-color: black;
+}
+/* line 133, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .expanded-view-container {
+  background-image: url(/assets/images/light-noise.png);
+  background-repeat: repeat;
+  background-size: 150px 150px;
+}
+/* line 141, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .module-item .module-inner {
+  background-image: none;
+}
+/* line 145, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .module-item .module-item-image {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 151, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .filter {
+  display: none;
+}
+/* line 156, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap.is-expanded-view-active .section-header {
+  display: block;
+}
+/* line 161, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .button-wrap {
+  top: 0;
+  display: none;
+}
+/* line 166, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .icon-minimize {
+  color: #454545;
+}
+/* line 172, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .module-expanded-item .module-item-info {
+  background: none;
+}
+/* line 177, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .module-expanded-item .h2 {
+  color: #454545;
+}
+/* line 180, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .module-b-wrap .module-expanded-item .type-label, .blue-skin .module-b-wrap .module-expanded-item .colon {
+  color: #454545;
+}
+/* line 188, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .tri::after, .blue-skin .double-tri::before {
+  border-color: #3e61ad #3e61ad transparent transparent;
+}
+/* line 193, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .related-list .search-catalog-item img {
+  max-width: none;
+  width: 100%;
+}
+/* line 198, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-bg-color {
+  background-color: #3e61ad;
+}
+/* line 202, ../../../workspace/styles/skins/blue-skin-base.scss */
+.blue-skin .game-type-color {
+  color: #3e61ad;
+}
+
+@media only screen and (min-width: 641px) {
+  /* line 7, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .tab-wrap h2 {
+    color: #3e61ad;
+  }
+  /* line 14, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .news-wrap {
+    background: #3e61ad;
+  }
+  /* line 18, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .news-wrap header {
+    background: none;
+  }
+  /* line 22, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .news-wrap .cta-btn {
+    background: #3e61ad;
+    color: #fff;
+  }
+  /* line 32, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .module-b-wrap .section-header {
+    display: none;
+  }
+  /* line 36, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .module-b-wrap .button-wrap {
+    display: block;
+  }
+  /* line 41, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .module-b-wrap.is-expanded-view-active .section-header {
+    display: none;
+  }
+  /* line 44, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-image {
+    max-width: none;
+  }
+
+  /* line 55, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .modal-page-blue-skin .modal-content .game-modal h1 {
+    background: #3e61ad;
+    color: #fff;
+  }
+  /* line 59, ../../../workspace/styles/skins/blue-skin-600.scss */
+  .modal-page-blue-skin .modal-content .game-modal h2, .modal-page-blue-skin .modal-content .game-modal strong {
+    color: #3e61ad;
+  }
+
+  /* line 66, ../../../workspace/styles/skins/blue-skin-600.scss */
+  #grads-interns-page.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-image {
+    width: 45% !important;
+    height: auto !important;
+    float: left;
+    margin-left: 5%;
+  }
+
+  /* line 73, ../../../workspace/styles/skins/blue-skin-600.scss */
+  #grads-interns-page.blue-skin .module-b-wrap.is-expanded-view-active .module-expanded-item .module-item-info {
+    float: right;
+    padding: 0 !important;
+    position: relative;
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 5, ../../../workspace/styles/skins/blue-skin-960.scss */
+  .blue-skin .circle-wrap {
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzNFNjFBRCIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjQTRDOEZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNTI0KSIgLz4KPC9zdmc+);
+    background: -webkit-linear-gradient(114deg, rgba(62, 97, 173, 0.92) 40%, rgba(164, 200, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(-45deg, rgba(62, 97, 173, 0.92) 40%, rgba(164, 200, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* IE10+ */
+    background: linear-gradient(-45deg, rgba(62, 97, 173, 0.92) 40%, rgba(164, 200, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* W3C */
+  }
+  /* line 13, ../../../workspace/styles/skins/blue-skin-960.scss */
+  .blue-skin .tab-wrap section {
+    top: 0;
+  }
+  /* line 17, ../../../workspace/styles/skins/blue-skin-960.scss */
+  .blue-skin .one-slide .promo-slider h2 {
+    top: -40px;
+  }
+}

@@ -1,0 +1,110 @@
+<div id="faq-support">
+    <div id="faq-accordion">
+        <h2><strong>Q&amp;A</strong></h2>
+        <div class="ui-accordion">
+            <h3>How can I retrieve a lost password?</h3>
+            <div>
+                <p>If you forgot your password, click the "Forgot your password?" link and enter the e-mail address you registered with or your username. A password recovery e-mail will then be sent to that address.</p>
+            </div>
+            <h3>How to check my submission(s)?</h3>
+            <div>
+                <p>Once you are logged in, click on "Job submission status" to consult and modify your submissions.</p>
+            </div>
+            <h3>What types of files can I upload?</h3>
+            <div>
+                <p>For your Ubisoft application you can upload your resume/CV, your cover letter and other attachments (such as demos or references).</p>
+                <p>Please note that resume/CVs can't be any larger than 3MB. The maximum capacity for resume/CVs uploaded is 15MB (e.g. five resumes/CVs at 3MB each). For all other attachments the maximum file size is of 5MB and you can submit up to 15 attachments. The accepted formats are:.doc, .txt, .pdf, .rtf, .html, .htm, .mht, .mhtml and .docx.</p>
+            </div>
+            <h3>How can I modify/delete my profile?</h3>
+            <div>
+                <p>The Resume/CV profile information page allows you to enter all relevant contact information, work experience and education(degrees). Please note that this page may display information you already entered previously in some of the fields. If that is the case, please verify that this information is up-to-date.</p>
+                <p>You can easily add, change, or update your profile information at any time once you are logged on. Click on "Edit your profile" on the main page, and edit any fields you want to change. Then, click "Save" to record your changes.</p>
+                <p>To permanently delete your profile, you can click the "Delete Profile" button. You will see a confirmation screen notifying you that your personal information will be removed from the site.</p>
+            </div>
+            <h3>How can I create/modify/delete a search agent?</h3>
+            <div>
+                <p>Once you are logged on, to create a new search agent, click on the "Search Agent Manager" link on the Home page and then click on the "Create Search Agent" button. You may also go to "Search Openings", search for jobs using the criteria you want, and then click on the "Create Search Agent" button. In the "Create Search Agent" screen, enter a name for the search, select its frequency, and confirm your e-mail address so you can be notified of the results.</p>
+                <p>To see the current results of a search agent, select "Search Agent Manager" on the Homepage and click the "Run" link next to the agent's name. Results are returned to you in the search results screen.</p>
+                <p>To edit the criteria for a search agent, click on the pencil icon next to the search agent's name. You will be prompted to change any or all of the search agent's settings. Click "Save" to record your changes. To change the frequency, select a new frequency from the dropdown menu under "E-mail frequency".</p>
+                <p>If you want to stop receiving search agent e-mail messages, change the frequency to "None", or delete the search agent by selecting its checkbox and clicking the "Delete Selected Search Agents" button. </p>
+            </div>
+            <h3>How can I re-activate my application if I withdrew it by mistake?</h3>
+            <div>
+                <p>Once you are logged on your personal account, click on Job submission status section.
+                In the Withdraw/re-activate column (last column) click on <strong>Re-activate</strong>.
+                By following the steps described above your submission will be re-activated.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="faq-form">
+
+        <h2><strong>Support form</strong></h2>
+
+        <p>Please use this form only if you are encountering technical difficulties in the application process. If your question does not refer to problems with the recruitment process, the request will not be answered. The team handling this request does not have access to any information pertaining to the recruitment process. We will try to solve your problem as quickly as possible. </p>
+        <p>Please note that we are able to answer only to the questions addressed in English or French.</p>
+        <p>Thank you for your understanding. </p>
+
+        <form class="faq-form" action="#" method="post">
+
+            <fieldset class="form-group">
+
+                <label>
+                    Type of incident
+                    <select name="selectTypeofIncident" id="selectTypeofIncident">
+                        <option value="Unable to apply">Unable to apply</option>
+                        <option value="Unable to login">Unable to login</option>
+                        <option value="Unable to upload my cv">Unable to upload my cv</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </label>
+
+                <label>
+                    Problem description in as much detail as possible.
+                    <textarea name="txtProblemDescription" id="txtProblemDescription" rows="10"></textarea>
+                </label>
+
+                <label>
+                    Name and First Name
+                    <input name="txtFullName" type="text" id="txtFullName" maxlength="50" placeholder="Full name">
+                </label>
+
+                <label>
+                    Contact e-mail address
+                    <input name="txtEmail" type="text" id="txtEmail" maxlength="50">
+                </label>
+
+                <label>
+                    Date of occurrence
+                    <input id="radDatePicker" name="radDatePicker" type="text" value="2014-08-13">
+                </label>
+
+                <label>
+                    Upload screenshot<br>(only jpg, jpeg, png file)
+                    <input type="file" name="FileUploadScreenshot" id="FileUploadScreenshot" onchange="return checkExtension(this);">
+                </label>
+
+                <label>
+                    Validate Code
+                    <input name="txtValidateCode" type="text" id="txtValidateCode" maxlength="5">
+                </label>
+
+            </fieldset>
+
+            <input class="btn-form" type="submit" name="submit" value="Send">
+
+        </form>
+
+        <div class="messageFail" style="display: none;">
+            <p>Error.</p>
+        </div>
+
+        <div class="messageSuccess" style="display: none;">
+            <p>Thank you for your request.</p>
+            <p>Our technical team is looking into it right now. Please note that <strong>the team handling this request does not have access to any information pertaining to the recruitment process.</strong></p>
+            <p>All other requests regarding the recruitment process or the status of your application will not be taken into account.</p>
+            <p>Thank you for your understanding.</p>
+            <p>The Ubisoft technical support team</p>
+        </div>
+    </div>
+</div>

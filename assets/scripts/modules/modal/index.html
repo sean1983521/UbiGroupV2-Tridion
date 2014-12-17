@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Modal</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/globals.css" title="" type="" />
+    <link rel="stylesheet" href="/assets/css/modal.css" title="" type="" />
+    <style type="text/css" media="all">
+        p{
+            padding-top: 10%;
+            text-align: center;
+            color: hsl(0, 0%, 40%);
+        }
+        h1{
+          padding-top: 80px;
+          font-size: 2rem;
+          text-transform: none;
+          font-weight: bold;
+          text-align: center;
+          color: black;
+        }
+        h2{
+          font-size: 1.0rem;
+        }
+        .listing{
+            text-align: center;
+        }
+        .listing a{
+            color: black;
+        }
+        li{
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body style='background-color: white;'>
+
+    <h1>Modal</h1>
+    <p>Normal list</p>
+    <ul id='list' class='listing'></ul>
+
+    <p>Gallery List</p>
+
+    <ul id='gallery' class='modal-gallery listing'></ul>
+
+    <div id="something-hidden" style='display: none;' class='mfp-modal-content game-modal system-requirements mfp-hide'>I'm hidden</div>
+
+    <script src="/assets/lib/modernizr/modernizr.js"></script>
+    <script src="/assets/scripts/config.js"></script>
+    <script src="/assets/lib/requirejs/require.js" type="text/javascript" charset="utf-8"></script>
+
+    <script type="text/javascript">
+
+    var list = document.getElementById('list'),
+        gallery = document.getElementById('gallery'),
+        links = {
+            ajax   : '/assets/dummy-data/game-news1.html', // AJAX
+            image  : '/assets/images/purchase-cover-xbox-360-large.jpg', // IMAGE
+            iframe : 'http://www.youtube.com/watch?v=4Ys5624wjgU', // IFRAME
+            inline : '#something-hidden' // inline
+        },
+        galleryLinks = {
+            iframe : 'http://www.youtube.com/watch?v=4Ys5624wjgU', // IFRAME
+            image  : '/assets/images/purchase-cover-xbox-360-large.jpg', // IMAGE
+        },
+        fragment1 = document.createDocumentFragment(),
+        fragment2 = document.createDocumentFragment(),
+        modal;
+
+    for ( var k in links ) {
+
+        var link = links[k],
+            a = document.createElement('a'),
+            li = document.createElement('li');
+
+        a.href = link;
+        a.className = 'modal';
+        a.innerHTML = k.toUpperCase();
+
+        li.appendChild(a);
+
+        fragment1.appendChild(li);
+
+    }
+
+    for ( var k in galleryLinks ) {
+
+        var link = links[k],
+            a = document.createElement('a'),
+            li = document.createElement('li');
+
+        a.href = link;
+        a.className = 'modal';
+        a.innerHTML = k.toUpperCase();
+
+        li.appendChild(a);
+
+        fragment2.appendChild(li);
+
+    }
+
+    list.appendChild(fragment1);
+    gallery.appendChild(fragment2);
+
+    console.log('hello');
+
+    require(['modules/modal/modal'], function(Modal) {
+        modal = new Modal();
+        modal.init();
+    });
+
+    </script>
+
+</body>
+
+</html>

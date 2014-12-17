@@ -1,0 +1,143 @@
+/* Far Cry 3 */
+/* line 7, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 [class*="sprite-icon-"] {
+  background-color: #c61a16;
+}
+/* line 11, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc5NjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0M2MUExNiIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjRkY1QzIzIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnOTYxKSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, #c61a16 40%, #ff5c23 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, #c61a16 40%, #ff5c23 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #c61a16 40%, #ff5c23 100%);
+  /* W3C */
+}
+/* line 18, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .circle-wrap .circle-btn {
+  color: #c61a16;
+}
+/* line 23, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .game-logo {
+  height: 32px;
+  margin-left: -75px;
+  width: 150px;
+}
+/* line 29, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .hero-more {
+  background-color: #c61a16;
+}
+/* line 34, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .promo-wrap {
+  background: #c61a16;
+}
+/* line 38, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .promo-slider .circle-btn {
+  background: #c61a16;
+  color: #fff;
+}
+/* line 43, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .game-bg-color {
+  background-color: #c61a16;
+}
+/* line 47, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .game-type-color {
+  color: #c61a16;
+}
+/* line 54, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .media-wrap header,
+.far-cry-3 .media-wrap .more {
+  background-color: #c61a16;
+}
+/* line 58, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .media-wrap .mask-slide.thumbnail .cta-btn p {
+  color: #c61a16;
+}
+/* line 67, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .game-specs .circle-btn {
+  background: #c61a16;
+  color: #fff;
+}
+/* line 72, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .game-specs .requirements {
+  color: #c61a16;
+}
+/* line 80, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .tab-wrap .active button {
+  background: #c61a16;
+}
+/* line 91, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .news-wrap header,
+.far-cry-3 .news-wrap .cta-btn,
+.far-cry-3 .goods-wrap header,
+.far-cry-3 .goods-wrap .cta-btn {
+  background-color: #c61a16;
+}
+/* line 95, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .news-wrap h2 a,
+.far-cry-3 .goods-wrap h2 a {
+  color: #c61a16;
+}
+/* line 101, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .tri::after, .far-cry-3 .double-tri::before {
+  border-color: #c61a16 #c61a16 transparent transparent;
+}
+/* line 108, ../../../workspace/styles/games/_far-cry-3-base.scss */
+.far-cry-3 .patches-wrap .cta-btn {
+  background: #c61a16;
+}
+
+@media only screen and (min-width: 641px) {
+  /* Far Cry 3 */
+  /* line 5, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .far-cry-3 .game-logo {
+    height: auto;
+    margin-left: -114px;
+    width: 227px;
+  }
+  /* line 13, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .far-cry-3 .tab-wrap h2 {
+    color: #c61a16;
+  }
+  /* line 20, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .far-cry-3 .news-wrap {
+    background: #c61a16;
+  }
+  /* line 24, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .far-cry-3 .news-wrap header {
+    background: none;
+  }
+  /* line 32, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .far-cry-3 .goods-wrap header {
+    background: none;
+  }
+
+  /* line 43, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .modal-page-far-cry-3 .modal-content .game-modal h1 {
+    background: #c61a16;
+    color: #fff;
+  }
+  /* line 47, ../../../workspace/styles/games/_far-cry-3-600.scss */
+  .modal-page-far-cry-3 .modal-content .game-modal h2, .modal-page-far-cry-3 .modal-content .game-modal strong {
+    color: #c61a16;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 5, ../../../workspace/styles/games/_far-cry-3-960.scss */
+  .far-cry-3 .circle-wrap {
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc5NjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0M2MUExNiIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjRkY1QzIzIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnOTYxKSIgLz4KPC9zdmc+);
+    background: -webkit-linear-gradient(114deg, rgba(198, 26, 22, 0.92) 40%, rgba(255, 92, 35, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(-45deg, rgba(198, 26, 22, 0.92) 40%, rgba(255, 92, 35, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* IE10+ */
+    background: linear-gradient(-45deg, rgba(198, 26, 22, 0.92) 40%, rgba(255, 92, 35, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* W3C */
+  }
+  /* line 13, ../../../workspace/styles/games/_far-cry-3-960.scss */
+  .far-cry-3 .game-logo {
+    margin-left: 0;
+    width: 230px;
+  }
+}

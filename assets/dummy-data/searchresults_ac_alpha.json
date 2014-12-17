@@ -1,0 +1,148 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Assassin's Creed Franchise",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_franchise.jpg",
+          "Tablet": "/assets/images/assassins_creed_franchise.jpg",
+          "Mobile": "/assets/images/assassins_creed_franchise.jpg",
+          "Widescreen": "/assets/images/assassins_creed_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/assassins_creed",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Assassin's Creed",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed.jpg",
+          "Tablet": "/assets/images/assassins_creed.jpg",
+          "Mobile": "/assets/images/assassins_creed.jpg",
+          "Widescreen": "/assets/images/assassins_creed.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/assassins_creed",
+        "Type": "Game",
+        "DateText": "November 13 2007",
+        "Date" : "2007-11-13"
+      },
+      {
+        "DisplayName": "Assassin's Creed 2",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_2.jpg",
+          "Tablet": "/assets/images/assassins_creed_2.jpg",
+          "Mobile": "/assets/images/assassins_creed_2.jpg",
+          "Widescreen": "/assets/images/assassins_creed_2.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3, iPhone, iPad",
+        "PlatformCategory":[
+          "console",
+          "pc",
+          "mobile"
+          ],
+        "PageURL": "/en-US/game/assassins_creed_2",
+        "Type": "Game",
+        "DateText": "November 17 2009",
+        "Date" : "2009-11-17"
+      },
+      {
+        "DisplayName": "" ,
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/ads/assassins_creed_revelations.jpg",
+          "Tablet": "/assets/images/ads/assassins_creed_revelations.jpg",
+          "Mobile": "/assets/images/ads/assassins_creed_revelations.jpg",
+          "Widescreen": "/assets/images/ads/assassins_creed_revelations.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": "",
+        "PageURL": "http://www.gamestop.com/collection/assassins-creed-4-black-flag",
+        "Type": "SearchPromo",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Assassin's Creed 3",
+       "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_3.jpg",
+          "Tablet": "/assets/images/assassins_creed_3.jpg",
+          "Mobile": "/assets/images/assassins_creed_3.jpg",
+          "Widescreen": "/assets/images/assassins_creed_3.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/assassins_creed_3",
+        "Type": "Game",
+        "DateText": "October 30 2012",
+        "Date" : "2012-10-30"
+      },
+      {
+        "DisplayName": "Assassin's Creed 3 : Liberation",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_liberation.jpg",
+          "Tablet": "/assets/images/assassins_creed_liberation.jpg",
+          "Mobile": "/assets/images/assassins_creed_liberation.jpg",
+          "Widescreen": "/assets/images/assassins_creed_liberation.jpg"
+        },
+        "PlatformText": "Playstation Vita",
+        "PlatformCategory": [
+          "handheld"
+          ],
+        "PageURL": "/en-US/games/assassins_creed_3_liberation",
+        "Type": "Game",
+        "DateText": "October 30 2012",
+        "Date" : "2013-10-30"
+      },
+      {
+        "DisplayName": "Assassin's Creed 3 : The Tyranny of King",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Tablet": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Mobile": "/assets/images/assassins_creed_3_dlc.jpg",
+          "Widescreen": "/assets/images/assassins_creed_3_dlc.jpg"
+        },
+        "PlatformText": "Xbox 360, PC, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/dlc/The_Tyranny_of_King_Washington",
+        "Type": "DLC",
+        "DateText": "January 24 2013",
+        "Date" : "2013-01-24"
+      },
+      {
+        "DisplayName": "Assassin's Creed IV: Black Flag",
+        "SearchThumbnailImage": {
+          "Desktop": "/assets/images/assassins_creed_4.jpg",
+          "Tablet": "/assets/images/assassins_creed_4.jpg",
+          "Mobile": "/assets/images/assassins_creed_4.jpg",
+          "Widescreen": "/assets/images/assassins_creed_4.jpg"
+        },
+        "PlatformText": "Xbox 360, Xbox One, WiiU, Playstation 4, Playstation 3",
+        "PlatformCategory": [
+          "console",
+          "pc"
+          ],
+        "PageURL": "/en-US/game/assassins_creed_4",
+        "Type": "Game",
+        "DateText": "October 29 2013",
+        "Date" : "2013-10-29"
+      }
+    ]
+  },
+  "TotalRecords": 7,
+  "ErrorMsg": null
+}

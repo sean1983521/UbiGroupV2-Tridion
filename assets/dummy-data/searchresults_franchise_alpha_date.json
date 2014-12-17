@@ -1,0 +1,93 @@
+{
+  "SearchResult": {
+    "Items": [
+      {
+        "DisplayName": "Assassin's Creed Franchise",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/assassins_creed_franchise.jpg",
+            "Tablet": "/assets/images/assassins_creed_franchise.jpg",
+            "Mobile": "/assets/images/assassins_creed_franchise.jpg",
+            "Widescreen": "/assets/images/assassins_creed_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/assassins_creed",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Prince of Persia Franchise",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/prince_of_persia_franchise.jpg",
+            "Tablet": "/assets/images/prince_of_persia_franchise.jpg",
+            "Mobile": "/assets/images/prince_of_persia_franchise.jpg",
+            "Widescreen": "/assets/images/prince_of_persia_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/prince_of_persia",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Rayman Franchise",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/rayman_franchise.jpg",
+            "Tablet": "/assets/images/rayman_franchise.jpg",
+            "Mobile": "/assets/images/rayman_franchise.jpg",
+            "Widescreen": "/assets/images/rayman_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/rayman",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Tom Clancy's Ghost Recon Franchise",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/ghost_recon_franchise.jpg",
+            "Tablet": "/assets/images/ghost_recon_franchise.jpg",
+            "Mobile": "/assets/images/ghost_recon_franchise.jpg",
+            "Widescreen": "/assets/images/ghost_recon_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/ghost_recon",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      },
+      {
+        "DisplayName": "Tom Clancy's Splinter Cell Franchise",
+          "SearchThumbnailImage": {
+            "Desktop": "/assets/images/splinter_cell_franchise.jpg",
+            "Tablet": "/assets/images/splinter_cell_franchise.jpg",
+            "Mobile": "/assets/images/splinter_cell_franchise.jpg",
+            "Widescreen": "/assets/images/splinter_cell_franchise.jpg"
+        },
+        "PlatformText": "",
+        "PlatformCategory": [
+          "franchise"
+            ],
+        "PageURL": "/en-US/franchise/splinter_cell",
+        "Type": "Franchise",
+        "DateText": "",
+        "Date" : ""
+      }
+    ]
+  },
+  "TotalRecords": 5,
+  "ErrorMsg": null
+}

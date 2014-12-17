@@ -1,0 +1,164 @@
+/* Anno 2070 */
+/* line 8, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 [class*="sprite-icon-"] {
+  background-color: #04a2a6;
+}
+/* line 12, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .circle-wrap {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc0MDEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzA0QTJBNiIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMzhGQUZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNDAxKSIgLz4KPC9zdmc+);
+  background: -webkit-linear-gradient(114deg, #04a2a6 40%, #38faff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(-45deg, #04a2a6 40%, #38faff 100%);
+  /* IE10+ */
+  background: linear-gradient(-45deg, #04a2a6 40%, #38faff 100%);
+  /* W3C */
+}
+/* line 19, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .circle-wrap .circle-btn {
+  color: #04a2a6;
+}
+/* line 24, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .game-logo {
+  height: 67px;
+  margin-left: -75px;
+  width: 150px;
+}
+/* line 30, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .hero-more {
+  background-color: #04a2a6;
+}
+/* line 35, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .promo-wrap {
+  background: #04a2a6;
+}
+/* line 39, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .promo-slider .circle-btn {
+  background: #04a2a6;
+  color: #fff;
+}
+/* line 44, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .game-bg-color {
+  background-color: #04a2a6;
+}
+/* line 48, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .game-type-color {
+  color: #04a2a6;
+}
+/* line 55, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .media-wrap header,
+.anno-2070 .media-wrap .more {
+  background-color: #04a2a6;
+}
+/* line 59, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .media-wrap .mask-slide.thumbnail .cta-btn p {
+  color: #04a2a6;
+}
+/* line 68, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .game-specs .circle-btn {
+  background: #04a2a6;
+  color: #fff;
+}
+/* line 73, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .game-specs .requirements {
+  color: #04a2a6;
+}
+/* line 81, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .tab-wrap .active button {
+  background: #04a2a6;
+}
+/* line 90, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .news-wrap header {
+  background-color: #04a2a6;
+}
+/* line 94, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .news-wrap h2 a {
+  color: #04a2a6;
+}
+/* line 103, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .patches-wrap .cta-btn {
+  background: #04a2a6;
+}
+/* line 111, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .goods-wrap header {
+  background: #04a2a6;
+}
+/* line 117, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .goods-wrap .goods-list .cta-btn {
+  background: #04a2a6;
+}
+/* line 123, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .goods-wrap .goods-list .additional-details h2 {
+  color: #04a2a6;
+}
+/* line 131, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .purchase-wrap .enlarge-link {
+  color: #04a2a6;
+}
+/* line 134, ../../../workspace/styles/games/_anno-2070-base.scss */
+.anno-2070 .tri::after, .anno-2070 .double-tri::before {
+  border-color: #04a2a6 #04a2a6 transparent transparent;
+}
+
+/* line 144, ../../../workspace/styles/games/_anno-2070-base.scss */
+.modal-page-anno-2070 .modal-content .game-modal .download a {
+  background-color: #04a2a6;
+}
+
+@media only screen and (min-width: 641px) {
+  /* Anno 2070 */
+  /* line 5, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .anno-2070 .game-logo {
+    height: auto;
+    margin-left: -105px;
+    width: 210px;
+  }
+  /* line 13, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .anno-2070 .tab-wrap h2 {
+    color: #04a2a6;
+  }
+  /* line 20, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .anno-2070 .news-wrap {
+    background: #04a2a6;
+  }
+  /* line 24, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .anno-2070 .news-wrap header {
+    background: none;
+  }
+  /* line 28, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .anno-2070 .news-wrap .cta-btn {
+    background: #04a2a6;
+    color: #fff;
+  }
+  /* line 37, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .anno-2070 .goods-wrap header {
+    background: none;
+  }
+
+  /* line 47, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .modal-page-anno-2070 .modal-content .game-modal h1 {
+    background: #04a2a6;
+    color: #fff;
+  }
+  /* line 51, ../../../workspace/styles/games/_anno-2070-600.scss */
+  .modal-page-anno-2070 .modal-content .game-modal h2, .modal-page-anno-2070 .modal-content .game-modal strong {
+    color: #04a2a6;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 5, ../../../workspace/styles/games/_anno-2070-960.scss */
+  .anno-2070 .circle-wrap {
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc0MDEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzA0QTJBNiIgb2Zmc2V0PSI0MCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMzhGQUZGIiBvZmZzZXQ9IjEwMCUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNDAxKSIgLz4KPC9zdmc+);
+    background: -webkit-linear-gradient(114deg, rgba(4, 162, 166, 0.92) 40%, rgba(56, 250, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(-45deg, rgba(4, 162, 166, 0.92) 40%, rgba(56, 250, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* IE10+ */
+    background: linear-gradient(-45deg, rgba(4, 162, 166, 0.92) 40%, rgba(56, 250, 255, 0.92) 100%), url(/assets/images/Texture-GraniteTrans.png);
+    /* W3C */
+  }
+  /* line 13, ../../../workspace/styles/games/_anno-2070-960.scss */
+  .anno-2070 .game-logo {
+    margin-left: 0;
+  }
+}
