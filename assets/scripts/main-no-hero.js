@@ -1,7 +1,7 @@
 // DO NOT FORGET TO REMOVE "mock-test".
 // SERIOUSLY, DO NOT FORGET TO REMOVE IT.
 // DOUBLE SERIOUS HERE. REMOVE THAT THING WHEN GOING TO PRODUCTION.
-define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager", "modules/expander/expander", "modules/secondary-nav/secondary-nav", "modules/cta-anchors/cta-anchors", "modules/modal/modal", "modules/announcement/announcement"], function(mock, LoadingScreen, waypoint, Globals, AddressManager, Expander, SecondaryNav, CTAAnchors, Modal, AnnouncementScreen) {
+define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager", "modules/expander/expander", "modules/secondary-nav/secondary-nav", "modules/cta-anchors/cta-anchors", "modules/modal/modal"], function(mock, LoadingScreen, waypoint, Globals, AddressManager, Expander, SecondaryNav, CTAAnchors, Modal) {
 
     var mainNoHero = (function mainNoHero(){
 
@@ -26,11 +26,9 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
 
             /*jshint maxstatements:20 */
 
-            if ($('#announcementScreen').length > 0){
-                AnnouncementScreen.AnnouncementScreen.init();
-            } else {
-                LoadingScreen.LoadingScreen.init();
-            }
+            
+            LoadingScreen.LoadingScreen.init();
+            
 
             Globals.Helpers.init();
             Globals.Helpers.initializeGlobalHeader();
