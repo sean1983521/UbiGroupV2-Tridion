@@ -320,57 +320,10 @@ define(["exports", "Globals", "modules/game-cover/game-cover", "modules/secondar
 
         // Get the default Featured pages from the API - called from this module's _init
         _getFeaturedPages = function _getFeaturedPages(){
-
-            var keyword = $('.search-tray-form .search-tray-keyword').val().toLowerCase(),
-                category = $('#searchTrayFauxInputShow .value').data('search-term'),
-                platform = $('#searchTrayFauxInputPlatform .value').data('search-term'),
-                genre = $('#searchTrayFauxInputGenre .value').data('search-term'),
-                options = {};
-
-            options.ps = 100;
-            options.keyword = keyword || '';
-            options.filter = category || 'featured';
-            options.pf = platform || 'all';
-            options.g = genre || 'all';
-
-            API.search(options, _handleSearchResults);
+            //SHA
+            _initSoloPage(); 
         },
 
-        // Using the results of the Featured pages search, define if we're building a carousel or a solo page
-        _handleSearchResults = function _handleSearchResults(data){
-            var i = 0,
-                j = 0;
-
-            for (var j = data.SearchResult.Items.length; j--;){
-                var page = data.SearchResult.Items[j];
-                if (page.PageURL.toLowerCase().substring(0, 4) == "http"){
-                    data.SearchResult.Items.splice(j, 1);
-                    data.TotalRecords = data.TotalRecords - 1;
-                }
-            }
-
-            _setPageSet(data);
-
-            // check to see if the current game exists in the search results
-            for (; i < data.SearchResult.Items.length; i++){
-                var page = data.SearchResult.Items[i];
-
-                if (page.PageURL.toLowerCase() === _cache.currentGame.data('page-url').toLowerCase()){
-                    // the current game exists in the search results -> build carousel
-                    _rebuildCarousel(i);
-
-                    _config.soloPage = false;
-
-                    _showArrows();
-
-                    break;
-                }
-            }
-
-            if (_config.soloPage){
-                _initSoloPage();
-            }
-        },
 
         // Initialize a Carousel page - it has neighboring pages
         _initCarouselPage = function _initCarouselPage(){
