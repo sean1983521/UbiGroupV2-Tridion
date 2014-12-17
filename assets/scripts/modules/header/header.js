@@ -35,6 +35,7 @@ define(["exports", "Globals"], function(exports, Globals) {
             _initGlobalNav();
             _checkPromoTray();
             _initPanels();
+            _initTopBanner();
         },
 
         _setupCache = function _setupCache() {
@@ -96,6 +97,14 @@ define(["exports", "Globals"], function(exports, Globals) {
             });
 
         },
+        //SHA
+        _initTopBanner = function _initTopBanner() {
+            var pageUrl = document.URL.toLowerCase();
+            if (pageUrl.indexOf('\/careers\/') > 0 || pageUrl.indexOf('\/office\/') > 0 || pageUrl.indexOf('\/studio\/') > 0) {
+                $('li#navCareers').addClass('actived');
+            }
+        },
+        //SHA
 
         _addMobileEvents = function _addMobileEvents() {
 
