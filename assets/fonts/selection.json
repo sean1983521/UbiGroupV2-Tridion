@@ -4,6 +4,38 @@
 		{
 			"icon": {
 				"paths": [
+					"M512 0c-282.747 0-512 229.253-512 512s229.253 512 512 512 512-229.253 512-512-229.253-512-512-512zM386.703 724.173h-103.711v-333.619h103.711v333.619zM334.152 349.635c-32.768 0-53.862-23.183-53.862-51.855 0-29.327 21.791-51.855 55.255-51.855s53.903 22.528 54.559 51.855c-0.041 28.672-21.135 51.855-55.951 51.855zM765.297 724.173h-103.67v-184.893c0-42.967-14.991-72.294-52.511-72.294-28.631 0-45.711 19.784-53.248 38.912-2.703 6.799-3.4 16.343-3.4 25.928v192.348h-103.67v-227.164c0-41.615-1.352-76.39-2.744-106.455h90.071l4.792 46.408h2.007c13.681-21.832 47.063-53.903 103.055-53.903 68.239 0 119.357 45.711 119.357 143.974v197.14z"
+				],
+				"attrs": [
+					{
+						"opacity": 1,
+						"visibility": false
+					}
+				],
+				"grid": 0,
+				"tags": [
+					"linkedin"
+				]
+			},
+			"attrs": [
+				{
+					"opacity": 1,
+					"visibility": false
+				}
+			],
+			"properties": {
+				"order": 55,
+				"id": 57,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "linkedin"
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
 					"M584.090 43.54l66.601 120.463-135.987 238.838-136.684-238.51 66.929-120.75 139.141-0.041zM608.256 2.58l-187.392 0.082-89.866 161.997 183.788 320.758 182.845-321.085-89.375-161.751z",
 					"M559.718 485.294l188.539-321.249 179.159-0.123 96.788 162.693-96.788 158.679z",
 					"M465.060 485.622l-190.136-320.635-181.862-0.123-93.061 162.529 95.437 158.228z",
@@ -17,7 +49,7 @@
 				"grid": 0
 			},
 			"properties": {
-				"order": 1,
+				"order": 54,
 				"id": 52,
 				"prevSize": 32,
 				"code": 58880,
@@ -25,7 +57,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 4
+			"iconIdx": 1
 		},
 		{
 			"icon": {
@@ -44,7 +76,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 5
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -66,7 +98,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 6
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -88,7 +120,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 7
+			"iconIdx": 4
 		},
 		{
 			"icon": {
@@ -110,7 +142,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 8
+			"iconIdx": 5
 		},
 		{
 			"icon": {
@@ -132,7 +164,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 9
+			"iconIdx": 6
 		},
 		{
 			"icon": {
@@ -154,7 +186,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 10
+			"iconIdx": 7
 		},
 		{
 			"icon": {
@@ -176,7 +208,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 11
+			"iconIdx": 8
 		},
 		{
 			"icon": {
@@ -198,7 +230,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 12
+			"iconIdx": 9
 		},
 		{
 			"icon": {
@@ -220,7 +252,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 13
+			"iconIdx": 10
 		},
 		{
 			"icon": {
@@ -242,7 +274,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 14
+			"iconIdx": 11
 		},
 		{
 			"icon": {
@@ -264,7 +296,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 15
+			"iconIdx": 12
 		},
 		{
 			"icon": {
@@ -286,7 +318,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 16
+			"iconIdx": 13
 		},
 		{
 			"icon": {
@@ -308,7 +340,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 17
+			"iconIdx": 14
 		},
 		{
 			"icon": {
@@ -330,7 +362,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 18
+			"iconIdx": 15
 		},
 		{
 			"icon": {
@@ -352,7 +384,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 19
+			"iconIdx": 16
 		},
 		{
 			"icon": {
@@ -374,7 +406,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 20
+			"iconIdx": 17
 		},
 		{
 			"icon": {
@@ -396,7 +428,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 39
+			"iconIdx": 18
 		},
 		{
 			"icon": {
@@ -418,7 +450,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 38
+			"iconIdx": 19
 		},
 		{
 			"icon": {
@@ -440,7 +472,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 37
+			"iconIdx": 20
 		},
 		{
 			"icon": {
@@ -462,7 +494,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 36
+			"iconIdx": 21
 		},
 		{
 			"icon": {
@@ -484,7 +516,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 35
+			"iconIdx": 22
 		},
 		{
 			"icon": {
@@ -506,7 +538,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 34
+			"iconIdx": 23
 		},
 		{
 			"icon": {
@@ -528,7 +560,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 33
+			"iconIdx": 24
 		},
 		{
 			"icon": {
@@ -550,7 +582,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 32
+			"iconIdx": 25
 		},
 		{
 			"icon": {
@@ -572,7 +604,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 31
+			"iconIdx": 26
 		},
 		{
 			"icon": {
@@ -594,7 +626,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 30
+			"iconIdx": 27
 		},
 		{
 			"icon": {
@@ -616,7 +648,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 29
+			"iconIdx": 28
 		},
 		{
 			"icon": {
@@ -638,7 +670,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 28
+			"iconIdx": 29
 		},
 		{
 			"icon": {
@@ -660,7 +692,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 27
+			"iconIdx": 30
 		},
 		{
 			"icon": {
@@ -682,7 +714,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 26
+			"iconIdx": 31
 		},
 		{
 			"icon": {
@@ -704,7 +736,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 25
+			"iconIdx": 32
 		},
 		{
 			"icon": {
@@ -726,7 +758,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 23
+			"iconIdx": 33
 		},
 		{
 			"icon": {
@@ -748,7 +780,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 24
+			"iconIdx": 34
 		},
 		{
 			"icon": {
@@ -770,7 +802,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 22
+			"iconIdx": 35
 		},
 		{
 			"icon": {
@@ -792,7 +824,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 21
+			"iconIdx": 36
 		},
 		{
 			"icon": {
@@ -814,7 +846,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 40
+			"iconIdx": 37
 		},
 		{
 			"icon": {
@@ -836,7 +868,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 41
+			"iconIdx": 38
 		},
 		{
 			"icon": {
@@ -858,7 +890,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 42
+			"iconIdx": 39
 		},
 		{
 			"icon": {
@@ -880,7 +912,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 43
+			"iconIdx": 40
 		},
 		{
 			"icon": {
@@ -902,7 +934,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 44
+			"iconIdx": 41
 		},
 		{
 			"icon": {
@@ -924,7 +956,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 45
+			"iconIdx": 42
 		},
 		{
 			"icon": {
@@ -946,7 +978,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 46
+			"iconIdx": 43
 		},
 		{
 			"icon": {
@@ -968,7 +1000,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 47
+			"iconIdx": 44
 		},
 		{
 			"icon": {
@@ -990,7 +1022,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 48
+			"iconIdx": 45
 		},
 		{
 			"icon": {
@@ -1012,7 +1044,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 49
+			"iconIdx": 46
 		},
 		{
 			"icon": {
@@ -1035,7 +1067,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 50
+			"iconIdx": 47
 		},
 		{
 			"icon": {
@@ -1057,7 +1089,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 51
+			"iconIdx": 48
 		},
 		{
 			"icon": {
@@ -1080,7 +1112,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 52
+			"iconIdx": 49
 		},
 		{
 			"icon": {
@@ -1102,7 +1134,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 53
+			"iconIdx": 50
 		},
 		{
 			"icon": {
@@ -1124,7 +1156,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 54
+			"iconIdx": 51
 		},
 		{
 			"icon": {
@@ -1146,7 +1178,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 55
+			"iconIdx": 52
 		},
 		{
 			"icon": {
@@ -1177,7 +1209,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 0
+			"iconIdx": 53
 		}
 	],
 	"height": 1024,
@@ -1188,7 +1220,9 @@
 		"fontPref": {
 			"prefix": "icon-",
 			"metadata": {
-				"fontFamily": "ubisoft-icons"
+				"fontFamily": "ubisoft-icons",
+				"majorVersion": 1,
+				"minorVersion": 0
 			},
 			"showGlyphs": true,
 			"metrics": {
@@ -1200,7 +1234,9 @@
 			"showQuickUse": true,
 			"quickUsageToken": false,
 			"showMetrics": true,
-			"showMetadata": false
+			"showMetadata": false,
+			"showSelector": false,
+			"showVersion": false
 		},
 		"imagePref": {
 			"color": 0,
@@ -1216,6 +1252,9 @@
 		"showLiga": false,
 		"showGrid": true,
 		"showGlyphs": true,
-		"showQuickUse": true
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"search": ""
 	}
 }

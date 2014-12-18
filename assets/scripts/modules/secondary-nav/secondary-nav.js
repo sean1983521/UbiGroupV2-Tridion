@@ -20,6 +20,7 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
             _setupCache();
             _assignColor();
             _assignEvents();
+            _initializeSecondaryNav();
 
         },
 
@@ -34,6 +35,14 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
             _cache.navBtnIcon = _cache.navBtn.find('span');
             _cache.modules = _cache.currentGame.find('.module-wrap');
 
+        },
+
+        _initializeSecondaryNav = function _initializeSecondaryNav(){
+            $('.item-has-children').children('a').on('click', function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(200).end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(200);
+            });
         },
 
         _assignColor = function _assignColor() {
@@ -168,7 +177,9 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
             _assignNavEvents();
             Globals.Helpers.cache.body.addClass('nav-open frozen');
             _cache.navBtnIcon.removeClass('icon-menu').addClass('icon-close');
-            Globals.Helpers.cache.body.hammer().on('tap', _closeNav);
+            Globals.Helpers.cache.body.on('click', _closeNav);
+
+            //Globals.Helpers.cache.body.hammer().on('tap', _closeNav);
 
         },
 
@@ -176,7 +187,8 @@ define(["waypoints", "exports", "Globals", "jQuery.tinyPubSub"], function(waypoi
 
             Globals.Helpers.cache.body.removeClass('nav-open frozen');
             _cache.navBtnIcon.removeClass('icon-close').addClass('icon-menu');
-            Globals.Helpers.cache.body.hammer().off('tap', _closeNav);
+            Globals.Helpers.cache.body.off('click', _closeNav);
+            //Globals.Helpers.cache.body.hammer().off('tap', _closeNav);
             Globals.Helpers.unfreezeBody();
             _removeNavEvents();
 
