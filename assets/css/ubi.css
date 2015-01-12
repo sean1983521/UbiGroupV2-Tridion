@@ -45,14 +45,6 @@ li.actived
     display:none
 }
 
-@media only screen and (max-width: 600px) 
-{
-    .searchJobsSection
-    {
-        overflow:auto;
-    }
-}
-
 .global-nav #detailNavBtn .inner
 {
     background: rgb(62, 97, 173);
