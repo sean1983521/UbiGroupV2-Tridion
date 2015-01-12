@@ -44,3 +44,8 @@ li.actived
 {
     display:none
 }
+
+.global-nav #detailNavBtn .inner
+{
+    background: rgb(62, 97, 173);
+}
