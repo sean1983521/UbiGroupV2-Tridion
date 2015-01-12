@@ -521,20 +521,13 @@ Far Cry 3 Blood Dragon</p>
             </div>
         </nav>
         <div class="blue-skin">
-            <section>
-                <script type="text/javascript">
-                function adjustHeight(el) {
-                    //$(el)[0].style.height = $(el)[0].contentWindow.document.body.offsetHeight + "px";
-                    var heightValue = ($(el)[0].scrollHeight).toString() + "px";
-                    console.log('adj'+heightValue);
-                    $(el).parent()[0].style.height = heightValue;
-                    //<iframe id="jobs-iframe" onload="adjustHeight('#jobs-iframe')" width="100%" height="100%" style="margin-top: 50px;" src="https://sjobs.brassring.com/1033/ASP/TG/cim_advsearch.asp?partnerid=25314&amp;siteid=5290" frameborder="0"></iframe>
-                }
-                </script>
-                <div class="iframe-container">
-                    <iframe id="jobs-iframe" width="100%" height="980px" style="margin-top: 50px;" src="https://sjobs.brassring.com/1033/ASP/TG/cim_advsearch.asp?partnerid=25314&amp;siteid=5290" frameborder="0"></iframe>
-                </div>
+            <section style="background-color: #E2E3E4">
+                <iframe width="100%" style="margin: 50px 0;" src="https://sjobs.brassring.com/1033/ASP/TG/cim_advsearch.asp?partnerid=25314&amp;siteid=5290" frameborder="0"></iframe>
             </section>
+            <script type="text/javascript" src="/assets/scripts/lib/iframe-resizer/iframeResizer.min.js"></script>
+            <script type="text/javascript">
+            iFrameResize();
+            </script>
             <!-- Begin Patches Module -->
             <div id="SupportFAQ" class="support-faq patches-wrap module-wrap waypoint-section is-not-initialized" data-module="modules/patches/patches">
                 <section>
