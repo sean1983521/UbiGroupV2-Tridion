@@ -1,0 +1,43 @@
+[
+    {"studio":"Bulgaria","coord":[51.502667280148714,-0.10800332622926011],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"UK","coord":[51.50431064189438,-0.11220620996275965],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Benelux","coord":[51.504480641451096,-0.11106824505297652],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Sweden","coord":[51.50612393780219,-0.1095661313720364],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Norway","coord":[51.50660558239848,-0.11043098470348678],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Finland","coord":[51.50677557339337,-0.10804884482565225],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Denmark","coord":[51.505037857773964,-0.11050684903080699],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Germany","coord":[51.504367308483744,-0.11035512037616657],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Poland","coord":[51.50459397413654,-0.10885300669524645],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Ukraine","coord":[51.504471197047906,-0.10719916435966591],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Spain","coord":[51.502346156564144,-0.11261587733028879],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Switzerland","coord":[51.503470079210196,-0.11055236762719911],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Austria","coord":[51.503573969819904,-0.10945992131378812],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Italy","coord":[51.503054514402855,-0.11015787312513403],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"Romania","coord":[51.502893954257765,-0.10773021465090737],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":false,"group":"europe"},
+    {"studio":"South Korea","coord":[51.50164710153865,-0.09090329613967718],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Taiwan","coord":[51.50019228760713,-0.09181324664406354],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Thailand","coord":[51.499739173728805,-0.09563723016443813],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Singapore","coord":[51.4977364457878,-0.09466574535126338],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Japan","coord":[51.50193018801068,-0.0889607479368437],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Australia","coord":[51.494411402933366,-0.08689723823375406],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"China","coord":[51.500910648742355,-0.09290653580438679],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Morocco","coord":[51.50151460916068,-0.1126911095224048],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"USA","coord":[51.50238354243402,-0.12986679322757988],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"Canada","coord":[51.50381913502087,-0.1274998262151894],"type":"business","link":"/en-US/company/presscontact.aspx?id=30440","popup":true},
+    {"studio":"France","coord":[51.50347486709633,-0.11129594339080118],"type":"business","link":"#","popup":false,"group":"europe",
+        "expanded":[
+            {
+                "name":"Paris",
+                "url":"/en-US/company/presscontact.aspx?id=30440"
+            },
+            {
+                "name":"EMEA HQ",
+                "url":"/en-US/company/presscontact.aspx?id=30440"
+            },
+            {
+                "name":"Worldwide HQ",
+                "url":"/en-US/company/presscontact.aspx?id=30440"
+            }
+        ]
+    }
+]

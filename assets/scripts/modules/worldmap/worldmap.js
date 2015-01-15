@@ -13,7 +13,8 @@ define(["exports", "Globals", "leaflet"], function(exports, Globals, leaflet) {
                 prodBizIconUrl : '/assets/images/worldmap/prodbiz-marker.png',
                 imageUrl : '/assets/images/worldmap/worldmap.svg',
                 imageBounds : [[51.490, -0.142], [51.510, -0.078]],
-                mapData: "/assets/dummy-data/map-data.json"
+                mapData: null,
+                mapType: null
             },
             _wasInitialized = false,
             _timer = null,
@@ -31,6 +32,8 @@ define(["exports", "Globals", "leaflet"], function(exports, Globals, leaflet) {
 
             _setupCache = function _setupCache() {
                 // cache reused elements here
+                _config.mapData = _cache.mapEl.data( "load-map");
+                _config.mapType = _cache.mapEl.data( "map-type");
             },
 
             _resizeWorldMap = function _resizeWorldMap() {
@@ -124,16 +127,33 @@ define(["exports", "Globals", "leaflet"], function(exports, Globals, leaflet) {
 
                         marker.addTo(_map);
 
-                        if (!val.expanded) { marker.bindPopup("<a href='"+val.link+"'>"+val.studio+"</a>",popupOptions) }
+                        if (!val.expanded) {
+
+                            switch (_config.mapType) {
+                                case "press" : marker.bindPopup("<a href='"+val.link+"' class='modal' data-mfpcontent-class='map-modal'>"+val.studio+"</a>",popupOptions); break;
+                                default: marker.bindPopup("<a href='"+val.link+"'>"+val.studio+"</a>",popupOptions);
+                            }
+
+                        }
                         else { index = expandedGroup.push(marker)-1;
                             popupOptions.autoPan = false;
                             popupContent = "<a class='popup-action-expand' data-index='"+(index)+"'>"+val.studio+"</a>";
 
                             //Create Expandable Studio Links
                             studioLinks = "<div class='close-button'>X</div><ul>";
-                            $.each( val.expanded, function( key, valExp ) {
-                                studioLinks += "<li><a href='"+valExp.url+"'>"+valExp.name+"</a></li>";
-                            });
+                            
+                            switch (_config.mapType) {
+                                case "press" :
+                                    $.each( val.expanded, function( key, valExp ) {
+                                        studioLinks += "<li><a href='"+valExp.url+"' class='modal' data-mfpcontent-class='map-modal'>"+valExp.name+"</a></li>";
+                                    });
+                                    break;
+                                    default:
+                                    $.each( val.expanded, function( key, valExp ) {
+                                        studioLinks += "<li><a href='"+valExp.url+"'>"+valExp.name+"</a></li>";
+                                   });
+                            }
+
                             studioLinks += "</ul>";
 
                             popupContent += "<div class='popup-action-close-expand' style='display:none;' data-index='"+(index)+"'>"+studioLinks+"</div>";
