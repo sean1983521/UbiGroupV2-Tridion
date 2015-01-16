@@ -698,6 +698,54 @@
 .modal-content-wrap .game-modal .fixes {
   padding-bottom: 20px;
 }
+.modal-content-wrap .map-modal a {
+  color: #3e61ad;
+}
+/* line 543, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal h2 {
+  color: #3e61ad;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  font-weight: normal;
+}
+/* line 550, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal h3 {
+  color: #3e61ad;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  font-weight: bold;
+}
+/* line 557, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal h4 {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+/* line 561, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal hr {
+  background-color: #d4d3d3;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+/* line 566, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal p {
+  color: #454545;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+  list-style: disc;
+  margin-left: 1em;
+}
+/* line 573, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
+.modal-content-wrap .map-modal p.support {
+  margin-left: 0;
+}
 /* line 540, ../../../workspace/styles/templates/modules/modals/_modal-base.scss */
 .modal-content-wrap .system-requirements .centered-content {
   margin: 0;
