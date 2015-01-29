@@ -49,3 +49,11 @@ li.actived
 {
     background: rgb(62, 97, 173);
 }
+
+.modal-content-wrap .social-sharing{
+    display: none;
+}
+
+.media-wrap header h1{
+    text-align: center;
+}

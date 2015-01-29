@@ -2658,6 +2658,16 @@ body:after {
   height: 78px;
 }
 
+/* line 1096, ../../../workspace/styles/globals/_globals-base.scss */
+#jobsKenexa {
+  background-color: #E2E3E4;
+  padding: 60px 0;
+}
+/* line 1101, ../../../workspace/styles/globals/_globals-base.scss */
+#searchJobsIFrame {
+  padding-top: 0 !important;
+}
+
 /* line 1, ../../../workspace/styles/templates/announcement/_announcement-screen-base.scss */
 .announcement-screen {
   background: #000;
