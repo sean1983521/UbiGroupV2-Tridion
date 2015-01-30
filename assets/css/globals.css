@@ -2506,6 +2506,17 @@ body:after {
   height: 78px;
 }
 
+#jobsKenexa {
+  background-color: #E2E3E4;
+  padding: 60px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+/* line 943, ../../../workspace/styles/globals/_globals-base.scss */
+#jobsKenexa iframe {
+  padding-top: 0 !important;
+}
+
 /* line 1, ../../../workspace/styles/templates/announcement/_announcement-screen-base.scss */
 .announcement-screen {
   background: #000;
