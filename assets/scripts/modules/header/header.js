@@ -101,8 +101,11 @@ define(["exports", "Globals"], function (exports, Globals) {
         //SHA
         _initTopBanner = function _initTopBanner() {
             var pageUrl = document.URL.toLowerCase();
-            if (pageUrl.indexOf('\/careers\/') > 0 || pageUrl.indexOf('\/office\/') > 0 || pageUrl.indexOf('\/studio\/') > 0) {
+            if (pageUrl.indexOf('\/careers\/') > 0 || pageUrl.indexOf('\/office\/') > 0 || pageUrl.indexOf('\/studio\/') > 0 || pageUrl.indexOf('\/recrutement\/') > 0 || pageUrl.indexOf('\/filiale\/') > 0) {
                 $('li#navCareers').addClass('actived');
+            }
+            if (pageUrl.indexOf('\/company\/') > 0 || pageUrl.indexOf('\/groupe\/') > 0) {
+                $('li#navCompany').addClass('actived');
             }
         },
         //SHA
