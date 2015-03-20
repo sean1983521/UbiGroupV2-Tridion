@@ -2668,6 +2668,298 @@ body:after {
   padding-top: 0 !important;
 }
 
+/* line 1108, ../../../workspace/styles/globals/_globals-base.scss */
+.clear {
+  clear: both;
+}
+
+/* line 1112, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section {
+  margin-top: 52px;
+  background-color: #E2E3E4;
+}
+/* line 1117, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container {
+  width: 100%;
+}
+/* line 1120, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases {
+  width: 100%;
+  background-color: #3e61ad;
+  padding: 6px 12px;
+}
+/* line 1125, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases h3.title {
+  font-style: normal;
+  color: #ffffff;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+/* line 1132, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases select, section.press-section .press-container #filter-press-releases input {
+  display: inline;
+  width: 100%;
+  border: 0;
+}
+/* line 1138, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases select {
+  padding: 6px;
+}
+/* line 1142, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases form {
+  margin-bottom: 20px;
+}
+/* line 1145, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases form .filter-form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 1151, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases label {
+  display: inline-block;
+  color: #ffffff;
+  padding-right: 10px;
+  padding-bottom: 6px;
+}
+/* line 1166, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #filter-press-releases #press-filter-button {
+  margin-top: 20px;
+  padding: 6px;
+  background-color: #ffffff;
+  color: #3e61ad;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+/* line 1179, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles {
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding: 6px;
+}
+/* line 1185, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles h3.title {
+  font-style: normal;
+  font-size: 22px;
+  font-size: 2.2rem;
+  color: white;
+  padding: 14px 6px;
+  margin-bottom: 8px;
+  background-color: #3e61ad;
+}
+/* line 1194, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list {
+  margin-bottom: 20px;
+}
+/* line 1197, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li {
+  padding: 18px 4px;
+  border-bottom: 1px solid #E2E3E4;
+}
+/* line 1201, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li:last-child {
+  border-bottom: 0;
+}
+/* line 1205, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .date {
+  color: #ccc;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "adobe-caslon-pro", "Georgia", serif;
+  font-style: italic;
+}
+/* line 1211, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .title {
+  color: #3e61ad;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+/* line 1217, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .title a {
+  color: #3e61ad;
+}
+/* line 1221, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .desc {
+  color: #454545;
+}
+/* line 1223, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul#press-articles-list li .desc a {
+  color: #454545;
+}
+/* line 1230, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination {
+  margin: 10px 0 20px;
+  text-align: center;
+  color: #3e61ad;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 20px;
+  font-size: 2rem;
+}
+/* line 1237, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li {
+  display: inline-block;
+}
+/* line 1240, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li.current-page {
+  background-color: #3e61ad;
+}
+/* line 1242, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li.current-page a {
+  color: #ffffff;
+}
+/* line 1246, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li a {
+  display: inline-block;
+  padding: 4px;
+  color: #3e61ad;
+}
+/* line 1251, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-articles ul.pagination li a:hover {
+  color: #ACBFE8;
+}
+/* line 1259, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article {
+  overflow: hidden;
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  padding: 6px;
+}
+/* line 1266, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article h3.title {
+  font-style: normal;
+  font-size: 22px;
+  font-size: 2.2rem;
+  color: white;
+  padding: 14px 6px;
+  margin-bottom: 20px;
+  background-color: #3e61ad;
+}
+/* line 1275, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container {
+  padding: 0 6px;
+}
+/* line 1277, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container a {
+  color: #3e61ad;
+  text-decoration: underline;
+}
+/* line 1281, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .press-button {
+  display: inline-block;
+  margin-right: 4px;
+}
+/* line 1285, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .press-button:last-child {
+  margin-right: 0;
+}
+/* line 1289, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .press-button a {
+  display: inline-block;
+  padding: 8px 10px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  background-color: #3e61ad;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 1301, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions {
+  margin-bottom: 20px;
+}
+/* line 1303, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .left-group {
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 1307, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .right-group {
+  float: right;
+  margin-bottom: 10px;
+}
+/* line 1311, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .social-buttons {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+}
+/* line 1316, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .article-actions .social-buttons a.social-button {
+  font-size: 30px;
+  font-size: 3rem;
+  color: #3e61ad;
+  text-decoration: none;
+}
+/* line 1323, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .main-image {
+  float: left;
+  padding: 0 2% 2% 0;
+  max-width: 33.3%;
+}
+/* line 1328, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .location-date {
+  color: #ccc;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "adobe-caslon-pro", "Georgia", serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+/* line 1335, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .title h2 {
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: "din-condensed-web", "Helvetica", Arial, sans-serif;
+  font-size: 26px;
+  font-size: 2.6rem;
+  color: #3e61ad;
+  margin-bottom: 8px;
+}
+/* line 1343, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container strong {
+  font-weight: bold;
+}
+/* line 1346, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container p {
+  margin-bottom: 10px;
+  line-height: 10px;
+  line-height: 1.0rem;
+}
+/* line 1351, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .genericRichTextBox {
+  margin-bottom: 60px;
+}
+/* line 1354, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .genericLegalLineBox {
+  background-color: #F7F7F7;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+/* line 1359, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .detailAboutUbisoft {
+  font-family: Verdana, "Helvetica", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+/* line 1362, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .detailAboutUbisoft p {
+  line-height: 18px;
+  line-height: 1.8rem;
+}
+/* line 1367, ../../../workspace/styles/globals/_globals-base.scss */
+section.press-section .press-container #press-article .press-article-container .footer-buttons {
+  text-align: right;
+  margin: 10px 0;
+}
+
 /* line 1, ../../../workspace/styles/templates/announcement/_announcement-screen-base.scss */
 .announcement-screen {
   background: #000;
@@ -7333,6 +7625,26 @@ ul.related-nav.active, ul.related-nav.hovering {
     margin: 16px 0 46px;
   }
 
+  /* line 152, ../../../workspace/styles/globals/_globals-600.scss */
+  section.press-section .press-container #filter-press-releases select, section.press-section .press-container #filter-press-releases input {
+    width: 120px;
+    margin-right: 20px;
+  }
+  /* line 158, ../../../workspace/styles/globals/_globals-600.scss */
+  section.press-section .press-container #filter-press-releases form .filter-form-group {
+    display: inline;
+  }
+  /* line 163, ../../../workspace/styles/globals/_globals-600.scss */
+  section.press-section .press-container #filter-press-releases label {
+    display: inline;
+    padding-bottom: 0;
+  }
+  /* line 168, ../../../workspace/styles/globals/_globals-600.scss */
+  section.press-section .press-container #filter-press-releases #press-filter-button {
+    margin-top: 0;
+    width: auto;
+  }
+
   /* line 3, ../../../workspace/styles/templates/announcement/_announcement-screen-600.scss */
   .announcement-screen .hide-on-mobile {
     display: inline-block;
@@ -8854,6 +9166,50 @@ ul.related-nav.active, ul.related-nav.hovering {
     padding: 0 20px;
   }
 
+  /* line 22, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section {
+    padding: 30px 0;
+  }
+  /* line 25, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  /* line 29, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #filter-press-releases {
+    width: 16%;
+    margin-right: 2%;
+    float: left;
+  }
+  /* line 34, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #filter-press-releases select, section.press-section .press-container #filter-press-releases input {
+    display: block;
+    margin: 4px auto 8px;
+    width: 100%;
+  }
+  /* line 41, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #filter-press-releases form {
+    margin-bottom: 0;
+  }
+  /* line 44, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #filter-press-releases form .filter-form-group {
+    display: block;
+  }
+  /* line 49, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #filter-press-releases #press-filter-button {
+    margin-top: 20px;
+  }
+  /* line 55, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #press-articles {
+    width: 82%;
+    float: right;
+  }
+  /* line 60, ../../../workspace/styles/globals/_globals-960.scss */
+  section.press-section .press-container #press-article {
+    width: 82%;
+    float: right;
+  }
+
   /* line 3, ../../../workspace/styles/templates/footer/_footer-960.scss */
   .global-footer .twitter-follow-button {
     display: block;
@@ -9690,6 +10046,12 @@ ul.related-nav.active, ul.related-nav.hovering {
   #header-lang-select,
   #header-support {
     display: block;
+  }
+
+  /* line 24, ../../../workspace/styles/globals/_globals-1280.scss */
+  section.press-section .press-container {
+    width: 1280px;
+    margin: 0 auto;
   }
 
   /* line 3, ../../../workspace/styles/templates/footer/_footer-1280.scss */

@@ -2,18 +2,19 @@
 var require = {
     baseUrl: "/assets/scripts",
     paths: {
-        "jquery": "lib/jquery/jquery",
-        "JSON": "lib/json2/json2",
-        "domReady": "lib/requirejs-domready/domReady",
-        "Hammer": "lib/hammerjs/jquery.hammer-full.min",
-        "waypoints": "lib/jquery-waypoints/waypoints",
-        "handlebars": "lib/handlebars/handlebars.runtime",
-        "jQuery.tinyPubSub": "lib/jquery-tiny-pubsub/dist/ba-tiny-pubsub",
-        "jQuery.mousewheel": "lib/jquery-mousewheel/jquery.mousewheel",
-        "jQuery.mockjax": "lib/jquery-mockjax/jquery.mockjax",
-        "jQuery.placeholder": "lib/jquery-placeholder/jquery.placeholder",
-        "jQuery.ui" : "lib/jquery-ui/jquery-ui.min",
-        "leaflet" : "lib/leaflet/leaflet.min"
+        "jquery": "lib/jquery.min",
+        "JSON": "lib/json2",
+        "domReady": "lib/domReady",
+        "Hammer": "lib/jquery.hammer-full.min",
+        "waypoints": "lib/waypoints",
+        "handlebars": "lib/handlebars.runtime",
+        "jQuery.tinyPubSub": "lib/ba-tiny-pubsub",
+        "jQuery.mousewheel": "lib/jquery.mousewheel",
+        "jQuery.mockjax": "lib/jquery.mockjax",
+        "jQuery.placeholder": "lib/jquery.placeholder",
+        "jQuery.ui" : "lib/jquery-ui.min",
+        "leaflet" : "lib/leaflet.min",
+		"jQuery.twbsPagination" : "lib/jquery.twbs-pagination"
     },
     deps: ["jquery", "Hammer", "jQuery.tinyPubSub"],
     shim: {
@@ -38,6 +39,9 @@ var require = {
         "leaflet": {
             deps: ["jquery"]
         },
+		"jQuery.twbsPagination": {
+			deps: ["jquery"]
+		},
         "handlebars": {
             deps: [""],
             exports: 'Handlebars',

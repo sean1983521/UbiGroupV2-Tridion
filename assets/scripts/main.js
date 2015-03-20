@@ -1,7 +1,7 @@
 // DO NOT FORGET TO REMOVE "mock-test".
 // SERIOUSLY, DO NOT FORGET TO REMOVE IT.
 // DOUBLE SERIOUS HERE. REMOVE THAT THING WHEN GOING TO PRODUCTION.
-define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager", "modules/game-to-game-nav", "modules/expander/expander", "modules/secondary-nav/secondary-nav", "modules/cta-anchors/cta-anchors", "modules/modal/modal"], function(mock, LoadingScreen, waypoint, Globals, AddressManager, GameToGameNav, Expander, SecondaryNav, CTAAnchors, Modal) {
+define(["loading-screen", "waypoints", "Globals", "address-manager", "modules/game-to-game-nav", "modules/expander/expander", "modules/secondary-nav/secondary-nav", "modules/cta-anchors/cta-anchors", "modules/modal/modal","pressrelease"], function(LoadingScreen, waypoint, Globals, AddressManager, GameToGameNav, Expander, SecondaryNav, CTAAnchors, Modal,PressRelease) {
 
     var main = (function main(){
 
@@ -31,7 +31,7 @@ define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager"
             Globals.Helpers.initializeGlobalHeader();
             Globals.ResizeManager.init();
             Globals.ImageLazyLoader.init();
-
+	    PressRelease.init();
             (new Modal()).init();
 
             _addEvents();

@@ -735,10 +735,10 @@ define(["require", "exports", "jquery", "modules/modal/modal"], function(require
         },
 
         _initModuleLazyImages = function _initModuleLazyImages(moduleElement) {
-
+        if(moduleElement!=[]&&moduleElement.length>0){
             var images = moduleElement.find('.lazy-image, .lazy-css-image'),
                 imageCheck = false;
-
+			
             if( images.length === 0 ) {
                 /* go ahead and kick off module initialization.
                    publishing below (line 570) for modules with images.
@@ -788,6 +788,7 @@ define(["require", "exports", "jquery", "modules/modal/modal"], function(require
 
             images = null;
             imageCheck = null;
+			}
         },
 
         _loadCSSImages = function _loadCSSImages(el, src) {
