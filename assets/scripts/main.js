@@ -1,7 +1,7 @@
 // DO NOT FORGET TO REMOVE "mock-test".
 // SERIOUSLY, DO NOT FORGET TO REMOVE IT.
 // DOUBLE SERIOUS HERE. REMOVE THAT THING WHEN GOING TO PRODUCTION.
-define(["loading-screen", "waypoints", "Globals", "address-manager", "modules/game-to-game-nav", "modules/expander/expander", "modules/secondary-nav/secondary-nav", "modules/cta-anchors/cta-anchors", "modules/modal/modal"], function(LoadingScreen, waypoint, Globals, AddressManager, GameToGameNav, Expander, SecondaryNav, CTAAnchors, Modal) {
+define(["mock-test", "loading-screen", "waypoints", "Globals", "address-manager", "modules/game-to-game-nav", "modules/expander/expander", "modules/secondary-nav/secondary-nav", "modules/cta-anchors/cta-anchors", "modules/modal/modal", "modules/announcement/announcement","pressrelease"], function(mock, LoadingScreen, waypoint, Globals, AddressManager, GameToGameNav, Expander, SecondaryNav, CTAAnchors, Modal, AnnouncementScreen,PressRelease) {
 
     var main = (function main(){
 
@@ -25,13 +25,17 @@ define(["loading-screen", "waypoints", "Globals", "address-manager", "modules/ga
 
             /*jshint maxstatements:20 */
 
-            LoadingScreen.LoadingScreen.init();
+            if ($('#announcementScreen').length > 0){
+                AnnouncementScreen.AnnouncementScreen.init();
+            } else {
+                LoadingScreen.LoadingScreen.init();
+            }
 
             Globals.Helpers.init();
             Globals.Helpers.initializeGlobalHeader();
             Globals.ResizeManager.init();
             Globals.ImageLazyLoader.init();
-
+			PressRelease.init();
             (new Modal()).init();
 
             _addEvents();

@@ -31,6 +31,10 @@ h1, .h1 {
     margin-right: 5%;
 }
 
+.blue-skin .filter-form-group #press-filter-button{
+    cursor: pointer;
+}
+
 li.actived
 {
     background-color: #3e61ad;
@@ -49,3 +53,12 @@ li.actived
 {
     background: rgb(62, 97, 173);
 }
+
+.modal-content-wrap .social-sharing{
+    display: none;
+}
+
+.media-wrap header h1{
+    text-align: center;
+}
+
